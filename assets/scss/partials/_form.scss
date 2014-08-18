@@ -1,9 +1,57 @@
-/*
-####################################
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+    line-height: normal;
+}
 
-form
+select, input[type="text"], input[type="password"],textarea {
+    display: inline-block;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Arial';
+    font-size: 14px;
+    vertical-align: middle;
+    outline: none;
+    @include box-sizing(border-box);
+    margin-bottom: 10px;
+}
 
+input[type="text"], input[type="password"] {
+    width: 100%;
+    text-overflow: ellipsis;
+}
 
+textarea {
+    overflow: auto;
+    resize: none;
+    width: 100%;
+}
 
-####################################
-*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.request,.error{
+    color: #d1232a; 
+    font-family: "Helvetica";
+    font-size: 10px;
+}
+
+.error{
+    margin-bottom: 10px;
+}
+
+.form{
+    opacity: .8; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "Helvetica";
+    font-size: 12px;
+    input[type="text"], input[type="password"]{
+        height: 40px;
+        line-height: 40px;
+    }
+    textarea {
+        height: 183px;
+    }
+}

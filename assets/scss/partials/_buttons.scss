@@ -1,7 +1,160 @@
-﻿/*
-####################################
+﻿$color-rose: #cb114f;
+$color-darkGreen: #15979d;
+$color-purple: #493369;
+$color-yellow: #e5c181;
+$color-red: #c12325;
+$color-blue: #29639b;
+$color-white:#fff;
 
-buttons
+/*rectangule button*/
+.btn-rectangule {
+    color: #fff;
+    /* text color */
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+}
 
-####################################
-*/
+/*Rose  btn*/
+.btn-rect-stl1 {
+    background-color: $color-rose;
+    border: solid 1px $color-rose;
+}
+
+.btn-rect-stl1-1 {
+    border-color: $color-rose;
+    background-color: transparent;
+    color: $color-rose;
+}
+
+/*Dark green btn*/
+.btn-rect-stl2 {
+    background-color: $color-darkGreen;
+    border: solid 1px $color-darkGreen;
+}
+
+.btn-rect-stl2-1 {
+    border-color: $color-darkGreen;
+    background-color: transparent;
+    color: $color-darkGreen;
+}
+
+/*Purple btn*/
+.btn-rect-stl3 {
+    background-color: $color-purple;
+    border: solid 1px $color-purple;
+}
+
+.btn-rect-stl3-1 {
+    border-color: $color-purple;
+    background-color: transparent;
+    color: $color-purple;
+}
+
+/*Yellow btn*/
+.btn-rect-stl4 {
+    background-color: $color-yellow;
+    border: solid 1px $color-yellow;
+}
+
+.btn-rect-stl4-1 {
+    border-color: $color-yellow;
+    background-color: transparent;
+    color: $color-yellow;
+}
+
+/*Red btn*/
+.btn-rect-stl5 {
+    background-color: $color-red;
+    border: solid 1px $color-red;
+}
+
+.btn-rect-stl5-1 {
+    border-color: $color-red;
+    background-color: transparent;
+    color: $color-red;
+}
+
+/*Blue btn*/
+.btn-rect-stl6 {
+    background-color: $color-blue;
+    border: solid 1px $color-blue;
+}
+
+.btn-rect-stl6-1 {
+    border-color: $color-blue;
+    background-color: transparent;
+    color: $color-blue;
+}
+
+/*White btn*/
+.btn-rect-stl7-1 {
+    border:solid 1px $color-white;
+    background-color: transparent;
+    color: $color-white;
+}
+
+/*round button*/
+.btn-round {
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    @include background-clip(padding-box);
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-round50 {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.btn-round80 {
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+}
+
+/*Rose btn*/
+.btn-round-stl1 {
+    background-color: #cb1d59;
+}
+
+/*Dark green btn*/
+.btn-round-stl2 {
+    background-color: $color-darkGreen;
+}
+
+/*Purple btn*/
+.btn-round-stl3 {
+    background-color: $color-purple;
+}
+
+/*Yellow btn*/
+.btn-round-stl4 {
+    background-color: $color-yellow;
+}
+
+/*Red btn*/
+.btn-round-stl5 {
+    background-color: $color-red;
+}
+
+/*Blue btn*/
+.btn-round-stl6 {
+    background-color: $color-blue;
+}
