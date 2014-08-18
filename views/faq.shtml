@@ -1,0 +1,33 @@
+<!--#include file="inc/p-header-1.html" -->
+
+
+<div class="container">
+    <div class="wgt-breadcrumb">
+        [wgt-breadcrumb]
+    </div>
+    <div class="wgt-page-nav">
+        [wgt-page-nav]
+    </div>
+    
+    <div class="r-inner">
+        <div class="main">
+            <div class="wgt-faq">
+                [wgt-faq]
+            </div>
+        </div>
+        <div class="side">            
+            <div class="wgt-side-subscribe">
+                [wgt-side-subscribe]
+            </div>
+            <div class="wgt-side-adArea">
+                [wgt-side-adArea]
+            </div>
+        </div>
+    </div>    
+    <div class="wgt-">
+        [wgt-]
+    </div>
+</div>
+
+
+<!--#include file="inc/p-footer.html" -->

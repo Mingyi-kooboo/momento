@@ -1,9 +1,11 @@
 ﻿@import "partials/base";
-@import "partials/font";
+@import "partials/mixin";
 @import "partials/layout";
+@import "partials/font";
 @import "partials/icons";
 @import "partials/buttons";
 @import "partials/form";
+@import "partials/components";
 @import "partials/widgets";
 @import "partials/page";
-@import "partials/responsive"
+@import "partials/responsive";

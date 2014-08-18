@@ -1,0 +1,24 @@
+<!--#include file="inc/p-header-1.html" -->
+
+
+<div class="container">
+    <div class="wgt-slider ">
+        [wgt-slider]
+    </div>
+    <div class="wgt-ad-tree-steps">
+        [wgt-ad-tree-steps]
+    </div>
+    <div class="wgt-searchBar">
+        [wgt-searchBar]
+    </div>
+    <div class="wgt-product-list">
+        [wgt-product-list]
+    </div>
+    <div class="wgt-">
+       [wgt-]
+    </div>
+</div>
+
+
+
+<!--#include file="inc/p-footer.html" -->

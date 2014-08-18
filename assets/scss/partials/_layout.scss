@@ -1,7 +1,31 @@
-﻿/*
-####################################
-
-layout
-
-####################################
+﻿/****** 
+	base layout
 */
+.r-inner {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    @include clearfix;
+}
+
+.top {
+    height: 30px;
+}
+
+header.header {
+    height: 80px;
+}
+
+footer.footer {
+    height: 69px;
+}
+
+.main {
+    float: left;
+    width: 74.468085106%;
+}
+
+.side {
+    float: right;
+    width: 23.404255319%;
+}
