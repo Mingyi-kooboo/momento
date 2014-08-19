@@ -11,14 +11,10 @@
     
     <div class="r-inner">
         <div class="main">
-            <div class="wgt-faq">
-                [wgt-faq]
-            </div>
+            <!--#include file="wgt/wgt-faq.html" -->
         </div>
         <div class="side">            
-            <div class="wgt-side-subscribe">
-                [wgt-side-subscribe]
-            </div>
+            <!--#include file="wgt/wgt-subscribe.html" -->
             <div class="wgt-side-adArea">
                 [wgt-side-adArea]
             </div>
