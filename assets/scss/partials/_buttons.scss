@@ -102,7 +102,7 @@ $color-white:#fff;
 
 /*round button*/
 .btn-round {
-    border-radius: 30px;
+    border-radius: 50%;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
     @include background-clip(padding-box);
     color: #fff;
@@ -115,15 +115,13 @@ $color-white:#fff;
     text-align: center;
 }
 
-.btn-round50 {
-    border-radius: 50px;
+.btn-round50 {    
     width: 100px;
     height: 100px;
     line-height: 100px;
 }
 
-.btn-round80 {
-    border-radius: 80px;
+.btn-round80 {    
     width: 160px;
     height: 160px;
     line-height: 160px;

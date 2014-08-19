@@ -1,6 +1,6 @@
 ﻿@import "icons/*.png";
 
-.icons-cart{
+.icon-cart{
     @include icons-sprite(cart);
 }
 
@@ -10,18 +10,18 @@
     height: 24px;
 }
 
-.icons-facebook{
+.icon-facebook{
     @include icons-sprite(facebook);
 }
 
-.icons-google{
+.icon-google{
     @include icons-sprite(google);
 }
 
-.icons-twitter{
+.icon-twitter{
     @include icons-sprite(twitter);
 }
 
-.icons-check{
+.icon-check{
     @include icons-sprite(check-green);    
 }

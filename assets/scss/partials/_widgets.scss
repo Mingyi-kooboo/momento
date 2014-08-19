@@ -1,9 +1,14 @@
-﻿/*
-####################################
-
-widgets
-
-####################################
-*/
+﻿.wgt-logo {
+    display: inline-block;
+    background: url(images/logo.png);
+    float: left;
+    margin-top: 12px;
+    h1{display: inline-block;}
+    a {
+        display: inline-block;
+        width: 101px;
+        height: 56px;
+    }
+}
 
 

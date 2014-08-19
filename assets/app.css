@@ -1,4 +1,4 @@
-/* line 17, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../Program Files (x86)/Koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, D:/koala/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -1540,11 +1540,11 @@ ul.icons-ul > li .icon-li {
   content: "\f14d"; }
 
 /* line 74, icons/*.png */
-.icons-sprite, .icons-cart, .icons-facebook, .icons-google, .icons-twitter, .icons-check {
-  background: url('/assets/images/icons-s2275f49fda.png') no-repeat; }
+.icons-sprite, .icon-cart, .icon-facebook, .icon-google, .icon-twitter, .icon-check {
+  background: url('images/icons-s2275f49fda.png') no-repeat; }
 
 /* line 3, scss/partials/_icons.scss */
-.icons-cart {
+.icon-cart {
   background-position: 0 -90px; }
 
 /* line 7, scss/partials/_icons.scss */
@@ -1554,19 +1554,19 @@ ul.icons-ul > li .icon-li {
   height: 24px; }
 
 /* line 13, scss/partials/_icons.scss */
-.icons-facebook {
+.icon-facebook {
   background-position: 0 -24px; }
 
 /* line 17, scss/partials/_icons.scss */
-.icons-google {
+.icon-google {
   background-position: 0 -48px; }
 
 /* line 21, scss/partials/_icons.scss */
-.icons-twitter {
+.icon-twitter {
   background-position: 0 0; }
 
 /* line 25, scss/partials/_icons.scss */
-.icons-check {
+.icon-check {
   background-position: 0 -72px; }
 
 /*rectangule button*/
@@ -1666,7 +1666,7 @@ ul.icons-ul > li .icon-li {
 /*round button*/
 /* line 104, scss/partials/_buttons.scss */
 .btn-round {
-  border-radius: 30px;
+  border-radius: 50%;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
@@ -1682,45 +1682,43 @@ ul.icons-ul > li .icon-li {
 
 /* line 118, scss/partials/_buttons.scss */
 .btn-round50 {
-  border-radius: 50px;
   width: 100px;
   height: 100px;
   line-height: 100px; }
 
-/* line 125, scss/partials/_buttons.scss */
+/* line 124, scss/partials/_buttons.scss */
 .btn-round80 {
-  border-radius: 80px;
   width: 160px;
   height: 160px;
   line-height: 160px; }
 
 /*Rose btn*/
-/* line 133, scss/partials/_buttons.scss */
+/* line 131, scss/partials/_buttons.scss */
 .btn-round-stl1 {
   background-color: #cb1d59; }
 
 /*Dark green btn*/
-/* line 138, scss/partials/_buttons.scss */
+/* line 136, scss/partials/_buttons.scss */
 .btn-round-stl2 {
   background-color: #15979d; }
 
 /*Purple btn*/
-/* line 143, scss/partials/_buttons.scss */
+/* line 141, scss/partials/_buttons.scss */
 .btn-round-stl3 {
   background-color: #493369; }
 
 /*Yellow btn*/
-/* line 148, scss/partials/_buttons.scss */
+/* line 146, scss/partials/_buttons.scss */
 .btn-round-stl4 {
   background-color: #e5c181; }
 
 /*Red btn*/
-/* line 153, scss/partials/_buttons.scss */
+/* line 151, scss/partials/_buttons.scss */
 .btn-round-stl5 {
   background-color: #c12325; }
 
 /*Blue btn*/
-/* line 158, scss/partials/_buttons.scss */
+/* line 156, scss/partials/_buttons.scss */
 .btn-round-stl6 {
   background-color: #29639b; }
 
@@ -1836,13 +1834,21 @@ table {
   border-color: #cb1150;
   color: #cb1150; }
 
-/*
-####################################
+/* line 1, scss/partials/_widgets.scss */
+.wgt-logo {
+  display: inline-block;
+  background: url(images/logo.png);
+  float: left;
+  margin-top: 12px; }
+  /* line 6, scss/partials/_widgets.scss */
+  .wgt-logo h1 {
+    display: inline-block; }
+  /* line 7, scss/partials/_widgets.scss */
+  .wgt-logo a {
+    display: inline-block;
+    width: 101px;
+    height: 56px; }
 
-widgets
-
-####################################
-*/
 /*
 ####################################
 

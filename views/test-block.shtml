@@ -4,15 +4,15 @@
 <!--[if !IE]><!--> <html>                               <!--<![endif]-->
 <head>
 <!--#include file="inc/p-header-1.html" -->
-    <a href="" class="icons-cart">cart</a>
+    <a href="" class="icon-cart">cart</a>
 
 
-    <a href="#" class="icon-share icons-facebook"></a>
-    <a href="#" class="icon-share icons-google"></a>
-    <a href="#" class="icon-share icons-twitter"></a>
+    <a href="#" class="icon-share icon-facebook"></a>
+    <a href="#" class="icon-share icon-google"></a>
+    <a href="#" class="icon-share icon-twitter"></a>
 
 
-    <a href="#" class="icons-check">hsjsjsjs</a>
+    <a href="#" class="icon-check">hsjsjsjs</a>
 
 
     <span class="icon-font-awesome icon-ok"></span>
