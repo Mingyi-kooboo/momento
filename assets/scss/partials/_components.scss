@@ -1,4 +1,8 @@
-﻿.five-box{
+﻿.text-right {
+    text-align: right;
+}
+
+.five-box{
     li{
         @include opacity(.8); 
         color: #000; 
