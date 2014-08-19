@@ -1,1 +1,27 @@
-﻿
+﻿@import "icons/*.png";
+
+.icons-cart{
+    @include icons-sprite(cart);
+}
+
+.icon-share{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.icons-facebook{
+    @include icons-sprite(facebook);
+}
+
+.icons-google{
+    @include icons-sprite(google);
+}
+
+.icons-twitter{
+    @include icons-sprite(twitter);
+}
+
+.icons-check{
+    @include icons-sprite(check-green);    
+}
