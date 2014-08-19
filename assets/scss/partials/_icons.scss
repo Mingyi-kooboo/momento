@@ -1,7 +1,13 @@
 ﻿@import "icons/*.png";
 
+.icon{
+	display: inline-block;
+}
+
 .icon-cart{
     @include icons-sprite(cart);
+	width:16px;
+	height:15px;
 }
 
 .icon-share{

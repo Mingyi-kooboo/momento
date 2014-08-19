@@ -1,10 +1,22 @@
-﻿.wgt-shoppingcar{
-	float: right;
-	font-size: 12px;
-	line-height: 20px;
-	padding:5px 0;
+﻿/* top */
+.wgt-shoppingcar {
+    float: right;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0;
+    >i {
+        vertical-align: -2px;
+    }
+    .num {
+        color: #898989;
+        margin: 0 5px;
+        b {
+            color: #000;
+        }
+    }
 }
 
+/* header */
 .wgt-logo {
     float: left;
     display: inline-block;
@@ -24,6 +36,7 @@
     float: right;
     font-size: 14px;
     margin-top: 35px;
+    font-family: "Montserrat";
     >ul {
         >li {
             float: left;
@@ -34,9 +47,37 @@
                 padding: 0 0 12px;
                 text-decoration: none;
             }
+            a:hover,
             a.active {
                 border-bottom: 1px solid #fff;
             }
         }
     }
+}
+
+/* footer */
+.wgt-copyright{
+	color:#fff;
+	font-family: "Helvetica";
+	font-size:12px;
+	float: left;
+	line-height: 1;
+	margin-top: 26px;
+}
+
+.wgt-footer-nav{
+	float: right;
+	font-size:10px;	
+	margin-top: 26px;
+	-webkit-transform-origin:100% 50%;
+	-webkit-transform:translate(0,-38px) scale(0.8333);
+	a,span{
+		display: inline-block;
+		float: left;
+		color:#fff;
+		padding:0 4px;
+		font-family: "Helvetica";
+
+
+	}
 }
