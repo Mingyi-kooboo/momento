@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--[if IE 9]>     <html class="ie ie9 lte9">           <![endif]-->
+<!--[if gt IE 9]>  <html>                               <![endif]-->
+<!--[if !IE]><!--> <html>                               <!--<![endif]-->
+<head>
+<!--#include file="inc/p-header-1.html" -->
+    <a href="" class="icons-cart">cart</a>
+
+
+    <a href="#" class="icon-share icons-facebook"></a>
+    <a href="#" class="icon-share icons-google"></a>
+    <a href="#" class="icon-share icons-twitter"></a>
+
+
+    <a href="#" class="icons-check">hsjsjsjs</a>
+
+
+    <span class="icon-font-awesome icon-ok"></span>
+    <span class="icon-font-awesome icon-plus"></span>
+    <span class="icon-font-awesome icon-minus"></span>
+    <span class="icon-font-awesome icon-play"></span>
+    <span class="icon-font-awesome icon-angle-down"></span>
+    <span class="icon-font-awesome icon-reorder"></span>
+    <span class="icon-font-awesome icon-sort-down "></span>
+
+
+    <div style="height:10px;">five boxes </div>
+
+    <ul class="five-box">
+            <li>
+                <strong class="title-five-box"><span class="icon-font-awesome icon-plus"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta est in augue placerat fermentum? </strong>
+                <p class="content-five-box">content1</p>
+            </li>
+            <li>
+                <strong class="title-five-box"><span class="icon-font-awesome icon-plus"></span>Aliquam id aliquam mauris. Integer laoreet lectus ac quam semper, sed vehicula nisi pharetra?</strong>
+                <p class="content-five-box">content2</p>
+            </li>
+            <li>
+                <strong class="title-five-box"><span class="icon-font-awesome icon-plus"></span>Deze vraag is aangeklikt en daardoor opgevouwen.</strong>
+                <p class="content-five-box">Pellentesque adipiscing felis at interdum mattis. Pellentesque nisl odio, aliquet a leo vel, volutpat volutpat enim. 
+Nulla facilisi. Mauris convallis vulputate justo non adipiscing. Nulla eget blandit libero. Donec et pharetra mauris. 
+Nam viverra nec metus posuere commodo.</p>
+            </li>
+    </ul>
+
+    <div style="height:10px;">page</div>
+
+    <div class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <span class="current">3</span>
+        <a href="#">4</a>
+    </div>
+
+
+    <div style="height:10px;">button</div>
+    <!--Rose button-->
+    <a class="btn-rectangule btn-rect-stl1">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl1 btn-rect-stl1-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--Dark green btn-->
+    <a class="btn-rectangule btn-rect-stl2">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl2 btn-rect-stl2-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--Purple btn-->
+    <a class="btn-rectangule btn-rect-stl3">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl3 btn-rect-stl3-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--Yellow btn-->
+    <a class="btn-rectangule btn-rect-stl4">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl4 btn-rect-stl4-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--Red btn-->
+    <a class="btn-rectangule btn-rect-stl5">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl5 btn-rect-stl5-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--Blue btn-->
+    <a class="btn-rectangule btn-rect-stl6">tool in winkelwagen</a>
+    <a class="btn-rectangule btn-rect-stl6 btn-rect-stl6-1">tool in winkelwagen</a>
+    <div style="height:10px;"></div>
+
+    <!--White btn-->
+<div style=" background-color:#cb114f;">
+    <a class="btn-rectangule btn-rect-stl7 btn-rect-stl7-1">tool in winkelwagen</a>
+</div>
+    <div style="height:10px;"></div>
+
+    <a class="btn-round btn-round-stl1">€79,-</a>
+    <a class="btn-round btn-round-stl2">€79,-</a>
+    <a class="btn-round btn-round-stl3">€79,-</a>
+    <a class="btn-round btn-round-stl4">€79,-</a>
+    <a class="btn-round btn-round-stl5">€79,-</a>
+    <a class="btn-round btn-round-stl6">€79,-</a>
+    <div style="height:10px;"></div>
+
+    <a class="btn-round btn-round50 btn-round-stl1">€79,-</a>
+    <a class="btn-round btn-round80 btn-round-stl2">€79,-</a>
+    <a class="btn-round btn-round-stl3">€79,-</a>
+    <a class="btn-round btn-round-stl4">€79,-</a>
+    <a class="btn-round btn-round-stl5">€79,-</a>
+    <a class="btn-round btn-round-stl6">€79,-</a>
+
+    <div style="height:10px;"></div>
+<form class="form">
+        
+        <table>
+            <tbody>
+                <tr >
+                    <th style="width:20%">Naam:<span class="request">*</span></th>
+                    <td>
+                        <input type="text" class="text-input" >
+                        <p class="error">Uw naam is verplicht</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Achternaam:<span class="request">*</span></th>
+                    <td>
+                        <input type="text" class="text-input" >
+                        <p class="error">Uw naam is verplicht</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>E-mailadres:<span class="request">*</span></th>
+                    <td>
+                        <input type="text" class="text-input" >
+                        <p class="error">Uw naam is verplicht</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Telefoonnummer:</th>
+                    <td>
+                        <input type="text" class="text-input" >
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>Onderwerp:<span class="request">*</span></th>
+                    <td>
+                        <input type="text" class="text-input" >
+                        <p class="error">Uw naam is verplicht</p>
+                    </td>
+                 </tr>
+                <tr>
+                    <th>Mijn vraag:<span class="request">*</span></th>
+                    <td>
+                        <textarea>
+                        </textarea>
+                    </td>
+                </tr> 
+            </tbody>
+        </table>
+        
+    </form>
+</body>
