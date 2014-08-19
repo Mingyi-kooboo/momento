@@ -114,22 +114,224 @@ font
 
 ####################################
 */
-/*
-####################################
+/*rectangule button*/
+/* line 10, scss/partials/_buttons.scss */
+.btn-rectangule {
+  color: #fff;
+  /* text color */
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px; }
 
-buttons
+/*Rose  btn*/
+/* line 25, scss/partials/_buttons.scss */
+.btn-rect-stl1 {
+  background-color: #cb114f;
+  border: solid 1px #cb114f; }
 
-####################################
-*/
-/*
-####################################
+/* line 30, scss/partials/_buttons.scss */
+.btn-rect-stl1-1 {
+  border-color: #cb114f;
+  background-color: transparent;
+  color: #cb114f; }
 
-form
+/*Dark green btn*/
+/* line 37, scss/partials/_buttons.scss */
+.btn-rect-stl2 {
+  background-color: #15979d;
+  border: solid 1px #15979d; }
 
+/* line 42, scss/partials/_buttons.scss */
+.btn-rect-stl2-1 {
+  border-color: #15979d;
+  background-color: transparent;
+  color: #15979d; }
 
+/*Purple btn*/
+/* line 49, scss/partials/_buttons.scss */
+.btn-rect-stl3 {
+  background-color: #493369;
+  border: solid 1px #493369; }
 
-####################################
-*/
+/* line 54, scss/partials/_buttons.scss */
+.btn-rect-stl3-1 {
+  border-color: #493369;
+  background-color: transparent;
+  color: #493369; }
+
+/*Yellow btn*/
+/* line 61, scss/partials/_buttons.scss */
+.btn-rect-stl4 {
+  background-color: #e5c181;
+  border: solid 1px #e5c181; }
+
+/* line 66, scss/partials/_buttons.scss */
+.btn-rect-stl4-1 {
+  border-color: #e5c181;
+  background-color: transparent;
+  color: #e5c181; }
+
+/*Red btn*/
+/* line 73, scss/partials/_buttons.scss */
+.btn-rect-stl5 {
+  background-color: #c12325;
+  border: solid 1px #c12325; }
+
+/* line 78, scss/partials/_buttons.scss */
+.btn-rect-stl5-1 {
+  border-color: #c12325;
+  background-color: transparent;
+  color: #c12325; }
+
+/*Blue btn*/
+/* line 85, scss/partials/_buttons.scss */
+.btn-rect-stl6 {
+  background-color: #29639b;
+  border: solid 1px #29639b; }
+
+/* line 90, scss/partials/_buttons.scss */
+.btn-rect-stl6-1 {
+  border-color: #29639b;
+  background-color: transparent;
+  color: #29639b; }
+
+/*White btn*/
+/* line 97, scss/partials/_buttons.scss */
+.btn-rect-stl7-1 {
+  border: solid 1px white;
+  background-color: transparent;
+  color: white; }
+
+/*round button*/
+/* line 104, scss/partials/_buttons.scss */
+.btn-round {
+  border-radius: 30px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center; }
+
+/* line 118, scss/partials/_buttons.scss */
+.btn-round50 {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px; }
+
+/* line 125, scss/partials/_buttons.scss */
+.btn-round80 {
+  border-radius: 80px;
+  width: 160px;
+  height: 160px;
+  line-height: 160px; }
+
+/*Rose btn*/
+/* line 133, scss/partials/_buttons.scss */
+.btn-round-stl1 {
+  background-color: #cb1d59; }
+
+/*Dark green btn*/
+/* line 138, scss/partials/_buttons.scss */
+.btn-round-stl2 {
+  background-color: #15979d; }
+
+/*Purple btn*/
+/* line 143, scss/partials/_buttons.scss */
+.btn-round-stl3 {
+  background-color: #493369; }
+
+/*Yellow btn*/
+/* line 148, scss/partials/_buttons.scss */
+.btn-round-stl4 {
+  background-color: #e5c181; }
+
+/*Red btn*/
+/* line 153, scss/partials/_buttons.scss */
+.btn-round-stl5 {
+  background-color: #c12325; }
+
+/*Blue btn*/
+/* line 158, scss/partials/_buttons.scss */
+.btn-round-stl6 {
+  background-color: #29639b; }
+
+/* line 1, scss/partials/_form.scss */
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+  line-height: normal; }
+
+/* line 6, scss/partials/_form.scss */
+select, input[type="text"], input[type="password"], textarea {
+  display: inline-block;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Arial';
+  font-size: 14px;
+  vertical-align: middle;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+/* line 20, scss/partials/_form.scss */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  text-overflow: ellipsis; }
+
+/* line 25, scss/partials/_form.scss */
+textarea {
+  overflow: auto;
+  resize: none;
+  width: 100%; }
+
+/* line 31, scss/partials/_form.scss */
+table {
+  width: 100%;
+  border-collapse: collapse; }
+
+/* line 35, scss/partials/_form.scss */
+.request, .error {
+  color: #d1232a;
+  font-family: "Helvetica";
+  font-size: 10px; }
+
+/* line 41, scss/partials/_form.scss */
+.error {
+  margin-bottom: 10px; }
+
+/* line 45, scss/partials/_form.scss */
+.form {
+  opacity: .8;
+  /* layer alpha */
+  color: #000;
+  /* text color */
+  font-family: "Helvetica";
+  font-size: 12px; }
+  /* line 50, scss/partials/_form.scss */
+  .form input[type="text"], .form input[type="password"] {
+    height: 40px;
+    line-height: 40px; }
+  /* line 54, scss/partials/_form.scss */
+  .form textarea {
+    height: 183px; }
+
 /*
 ####################################
 
