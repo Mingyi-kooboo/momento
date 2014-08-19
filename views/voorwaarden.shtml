@@ -1,6 +1,5 @@
 <!--#include file="inc/p-header-1.html" -->
 
-
 <div class="container">
     <div class="wgt-breadcrumb">
         [wgt-breadcrumb]
@@ -8,16 +7,16 @@
     <div class="wgt-page-nav">
         [wgt-page-nav]
     </div>
-    
+
     <div class="r-inner">
         <div class="main">
             <!--#include file="wgt/wgt-agreement.html" -->
         </div>
-        <div class="side">  
+        <div class="side">
             <!--#include file="wgt/wgt-subscribe.html" -->
-            <!--#include file="wgt/wgt-side-adArea.html" -->           
+            <!--#include file="wgt/wgt-side-adArea.html" -->
         </div>
-    </div>    
+    </div>
     <div class="wgt-">
         [wgt-]
     </div>

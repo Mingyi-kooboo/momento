@@ -56,28 +56,67 @@
 }
 
 /* footer */
-.wgt-copyright{
-	color:#fff;
-	font-family: "Helvetica";
-	font-size:12px;
-	float: left;
-	line-height: 1;
-	margin-top: 26px;
+.wgt-copyright {
+    color: #fff;
+    font-family: "Helvetica";
+    font-size: 12px;
+    float: left;
+    line-height: 1;
+    margin-top: 28px;
 }
 
-.wgt-footer-nav{
-	float: right;
-	font-size:10px;	
-	margin-top: 26px;
-	-webkit-transform-origin:100% 50%;
-	-webkit-transform:translate(0,-38px) scale(0.8333);
-	a,span{
-		display: inline-block;
-		float: left;
-		color:#fff;
-		padding:0 4px;
-		font-family: "Helvetica";
+.wgt-footer-nav {
+    float: right;
+    font-size: 10px;
+    margin-top: 28px;
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transform: translate(0, -40px) scale(0.8333);
+    a,span {
+        display: inline-block;
+        float: left;
+        color: #fff;
+        padding: 0 4px;
+        font-family: "Helvetica";
+    }
+}
 
+/* home */
+.wgt-gift-card-search{
+    background-color: #cb1150;
+    padding:21px 0 20px;
+    color:#fff;
+    font-size:15px;
+    font-family: "Montserrat";  
+    line-height: 30px;  
+    .control-label{
+        font-weight: 700;
+        float: left;
+    }
+    .control-group{
+        float: right;
+        vertical-align: middle;
+        .txt{
+            border:1px solid #e5e5e5;
+            border-top-color:#ccc;
+            font-size:12px;
+            line-height: 18px;
+            padding:5px 8px;
+            width:356px;
+            margin:0 4px 0 0;
+            float: left;
+            
+        }
+        .btn{
+            border:1px solid #fff;
+            color:#fff;
+            display: inline-block;
+            padding:5px 10px;
+            float: left;
+            background: none;
+            font-size: 12px;
+            line-height: 18px;
+            float: left;            
 
-	}
+        }
+    }
 }

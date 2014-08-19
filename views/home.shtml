@@ -8,15 +8,11 @@
     <div class="wgt-ad-tree-steps">
         [wgt-ad-tree-steps]
     </div>
-    <div class="wgt-searchBar">
-        [wgt-searchBar]
-    </div>
-    <div class="wgt-product-list">
+    <!--#include file="wgt/wgt-gift-card-search.html" -->    
+    <div class="wgt-product-list-home">
         [wgt-product-list]
     </div>
-    <div class="wgt-">
-       [wgt-]
-    </div>
+    <!--#include file="wgt/wgt-website-note.html" -->    
 </div>
 
 
