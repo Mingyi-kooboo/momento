@@ -1,39 +1,45 @@
 ﻿@import "icons/*.png";
 
-.icon{
-	display: inline-block;
+.icon {
+    display: inline-block;
 }
 
-.icon-cart{
+.icon-cart {
     @include icons-sprite(cart);
-	width:16px;
-	height:15px;
+    width: 16px;
+    height: 15px;
 }
 
-.icon-share{
+.icon-share {
     display: inline-block;
     width: 24px;
     height: 24px;
 }
 
-.icon-arrow-breadcrumb{
+.icon-arrow-breadcrumb {
     @include icons-sprite(arrow-breadcrumb);
-    width:22px;
-    height:12px;
+    width: 22px;
+    height: 12px;
 }
 
-.icon-facebook{
+.icon-arrow-bottom-ad {
+    width: 9px;
+    height: 27px;
+    @include icons-sprite(arrow-bottom-ad);
+}
+
+.icon-facebook {
     @include icons-sprite(facebook);
 }
 
-.icon-google{
+.icon-google {
     @include icons-sprite(google);
 }
 
-.icon-twitter{
+.icon-twitter {
     @include icons-sprite(twitter);
 }
 
-.icon-check{
-    @include icons-sprite(check-green);    
+.icon-check {
+    @include icons-sprite(check-green);
 }
