@@ -1,14 +1,7 @@
-<!--#include file="inc/p-header-1.html" -->
-
-
+<!--#include file="inc/p-header-2.html" -->
 <div class="container">
-    <div class="wgt-breadcrumb">
-        [wgt-breadcrumb]
-    </div>
-    <div class="wgt-page-nav">
-        [wgt-page-nav]
-    </div>
-    
+    <!--#include file="wgt/wgt-breadcrumb.html" -->  
+    <!--#include file="wgt/wgt-page-nav.html" -->    
     <div class="r-inner">
         <div class="main">
             <!--#include file="wgt/wgt-contactUs.html" -->
@@ -20,6 +13,4 @@
     </div>    
     <!--#include file="wgt/wgt-website-note.html" -->   
 </div>
-
-
 <!--#include file="inc/p-footer.html" -->

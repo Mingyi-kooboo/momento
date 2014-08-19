@@ -16,6 +16,12 @@
     height: 24px;
 }
 
+.icon-arrow-breadcrumb{
+    @include icons-sprite(arrow-breadcrumb);
+    width:22px;
+    height:12px;
+}
+
 .icon-facebook{
     @include icons-sprite(facebook);
 }

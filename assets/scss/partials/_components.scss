@@ -1,4 +1,19 @@
-﻿.text-right {
+﻿.page-title{
+    color: #cb1e59; 
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.page-brief{
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgba(0,0,0,.8);
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+.text-right {
     text-align: right;
 }
 

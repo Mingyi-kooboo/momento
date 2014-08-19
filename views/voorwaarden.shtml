@@ -1,26 +1,16 @@
 <!--#include file="inc/p-header-1.html" -->
-
 <div class="container">
-    <div class="wgt-breadcrumb">
-        [wgt-breadcrumb]
-    </div>
-    <div class="wgt-page-nav">
-        [wgt-page-nav]
-    </div>
-
+    <!--#include file="wgt/wgt-breadcrumb.html" -->  
+    <!--#include file="wgt/wgt-page-nav.html" -->
     <div class="r-inner">
         <div class="main">
-            <!--#include file="wgt/wgt-agreement.html" -->
+            <!--#include file="wgt/wgt-agreenment.html" -->
         </div>
         <div class="side">
             <!--#include file="wgt/wgt-subscribe.html" -->
             <!--#include file="wgt/wgt-side-adArea.html" -->
         </div>
     </div>
-    <div class="wgt-">
-        [wgt-]
-    </div>
+    <!--#include file="wgt/wgt-website-note.html" -->
 </div>
-
-
 <!--#include file="inc/p-footer.html" -->

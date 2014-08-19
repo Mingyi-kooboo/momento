@@ -115,8 +115,51 @@
             background: none;
             font-size: 12px;
             line-height: 18px;
-            float: left;            
-
+            float: left;
         }
     }
 }
+
+
+.wgt-page-nav{
+    padding:7px 0;
+    a{
+        color:#666666;
+        font-size: 11px;
+        line-height: 18px;
+        display: inline-block;   
+        font-family: "Helvetica";
+        -webkit-transform-origin: 0% 50%;
+        -webkit-transform:scale(0.91666666666667);
+    }
+}
+
+.wgt-breadcrumb{
+    background-color: #ebebeb;
+    position: relative;
+    .r-inner{
+        padding:7px 0 8px;
+    }
+    .icon{position: absolute;
+        bottom:-12px;
+        left:50%;
+        margin-left: -11px;
+    }
+    p{
+        -webkit-transform-origin: 0% 50%;
+        -webkit-transform:scale(0.91666666666667);
+    }
+    a,span{
+        float: left;
+        font-size:11px;
+        font-family: "Helvetica"; 
+        line-height: 18px;
+        color:#5e5e5e;
+        display: inline-block;
+    }
+    span{
+        margin:0 5px;
+    }
+}
+
+
