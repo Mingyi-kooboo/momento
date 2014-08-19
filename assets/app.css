@@ -54,6 +54,10 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+/* line 4, scss/partials/_base.scss */
+a {
+  text-decoration: none; }
+
 /****** 
 	base layout
 */
@@ -1835,19 +1839,45 @@ table {
   color: #cb1150; }
 
 /* line 1, scss/partials/_widgets.scss */
+.wgt-shoppingcar {
+  float: right;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0; }
+
+/* line 8, scss/partials/_widgets.scss */
 .wgt-logo {
+  float: left;
   display: inline-block;
   background: url(images/logo.png);
-  float: left;
   margin-top: 12px; }
-  /* line 6, scss/partials/_widgets.scss */
+  /* line 13, scss/partials/_widgets.scss */
   .wgt-logo h1 {
     display: inline-block; }
-  /* line 7, scss/partials/_widgets.scss */
+  /* line 16, scss/partials/_widgets.scss */
   .wgt-logo a {
     display: inline-block;
     width: 101px;
     height: 56px; }
+
+/* line 23, scss/partials/_widgets.scss */
+.wgt-menu {
+  float: right;
+  font-size: 14px;
+  margin-top: 35px; }
+  /* line 28, scss/partials/_widgets.scss */
+  .wgt-menu > ul > li {
+    float: left;
+    padding: 0 0 0 40px; }
+    /* line 31, scss/partials/_widgets.scss */
+    .wgt-menu > ul > li a {
+      color: #fff;
+      line-height: 1;
+      padding: 0 0 12px;
+      text-decoration: none; }
+    /* line 37, scss/partials/_widgets.scss */
+    .wgt-menu > ul > li a.active {
+      border-bottom: 1px solid #fff; }
 
 /*
 ####################################

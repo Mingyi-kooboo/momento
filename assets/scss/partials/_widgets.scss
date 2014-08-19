@@ -1,9 +1,18 @@
-﻿.wgt-logo {
+﻿.wgt-shoppingcar{
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+	padding:5px 0;
+}
+
+.wgt-logo {
+    float: left;
     display: inline-block;
     background: url(images/logo.png);
-    float: left;
     margin-top: 12px;
-    h1{display: inline-block;}
+    h1 {
+        display: inline-block;
+    }
     a {
         display: inline-block;
         width: 101px;
@@ -11,4 +20,23 @@
     }
 }
 
-
+.wgt-menu {
+    float: right;
+    font-size: 14px;
+    margin-top: 35px;
+    >ul {
+        >li {
+            float: left;
+            padding: 0 0 0 40px;
+            a {
+                color: #fff;
+                line-height: 1;
+                padding: 0 0 12px;
+                text-decoration: none;
+            }
+            a.active {
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+}
