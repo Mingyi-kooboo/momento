@@ -185,9 +185,6 @@
             padding-top: 35px;
             line-height: 18px;
             color: #333;
-            .page-title{
-                text-transform: uppercase;
-            }
             p{
                 margin-bottom: 20px;
             }
@@ -199,5 +196,36 @@
             font-size: 14px;
             margin-top: 25px;
         }
+    }
+}
+
+.search-map{
+    .search_input{
+        float: left;
+        width: 615px;
+        margin-right: 13px;
+    }
+    .btn-rectangule{
+        height: 40px;
+        width: 72px;
+    }
+}
+
+.wgt-map{
+    width: 700px;
+    overflow: hidden;
+}
+
+.wgt-mapInfoCon{
+    color: #6a6a6a;
+    line-height: 18px;
+    dl{
+        margin-bottom: 24px;
+    }
+    dt{
+        color: #cb114f; 
+        font-weight: bold;
+        font-size:14px;
+        text-transform:uppercase;
     }
 }
