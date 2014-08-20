@@ -140,3 +140,70 @@ $font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
         padding:10px 0 10px 35px;
     }
 }
+
+.wgt-giftcard{
+    table{
+        th, td{
+            vertical-align: top;
+        }
+        th{
+            font-weight: bold;
+            color: #373737;
+            font-size: 14px;
+            padding-top: 12px;
+            width: 23%;
+        }
+        input[type="text"]{
+            width: 355px;
+        }
+        .btn-rectangule{
+            font-size: 14px;
+            height: 28px;
+            line-height: 28px;
+        }
+        .error{
+            padding-left: 10px;
+        }
+    }
+    .tip{
+        color: #373737; 
+        font-size: 14px;
+        font-weight: bold;
+        padding: 15px 10px;
+        margin: 10px 0 20px;
+        background-color: #ebebeb;
+        span{
+            color: #cb1e59; 
+            font-family: "montserratbold";
+            font-size: 22px;
+            text-transform: uppercase;
+            margin-left: 15px;
+        }
+    }
+    .tip-content{
+        .rgt-bolck{
+            float: right;
+            width: 230px;
+        }
+        .lft-block{
+            width: 380px;
+            padding-left: 10px;
+            padding-top: 35px;
+            line-height: 18px;
+            color: #333;
+            .page-title{
+                text-transform: uppercase;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            strong{
+                font-weight: 700;
+            }
+        }
+        .btn-rectangule{
+            font-size: 14px;
+            margin-top: 25px;
+        }
+    }
+}

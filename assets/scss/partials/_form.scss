@@ -5,7 +5,7 @@ input[type="radio"], input[type="checkbox"] {
 
 select, input[type="text"], input[type="password"],textarea {
     display: inline-block;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: #fff;
     border: 1px solid #ebebeb;
     color: rgba(0, 0, 0, 0.75);
@@ -43,8 +43,7 @@ table{
 }
 
 .form{
-    opacity: .8; /* layer alpha */
-    color: #000; /* text color */
+    color: #333; 
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     input[type="text"], input[type="password"]{
