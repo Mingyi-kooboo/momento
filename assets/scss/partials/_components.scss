@@ -1,5 +1,5 @@
 ﻿.container{
-    background: url();
+    background: url(images/bg.png) repeat;
 }
 
 .page-title-box{
@@ -30,6 +30,7 @@
         color: #000; 
         font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
+        cursor: pointer;
         .title-five-box{
             display: block;
             border:solid 1px #ebebeb;
