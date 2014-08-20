@@ -174,13 +174,16 @@
             font-family: "montserratbold";
             color: #cb1150;
             line-height: 1;
-           
+        }
+        h6 {
+            padding-bottom: 4px;
         }
         p {
             margin-top: 1.7142857142857em;
             line-height: 24px;
             font-family: "Helvetica";
             font-size: 14px;
+            color:#383838;
         }
         .info {
             margin-top: 55px;
@@ -192,9 +195,11 @@
                 display: inline-block;
                 vertical-align: middle;
                 font-weight: 400;
+                color:#787878;
             }
             img {
                 vertical-align: middle;
+                -webkit-transform: translate(-20px,0) ;
             }
         }
     }
@@ -223,10 +228,10 @@
             font-size: 18px;
             line-height: 1.1;
             font-family: "montserratregular";
-            padding-top: 10px;
+            padding-top: 12px;
             p {
                 padding-left: 14px;
-                margin: 0 0 1.3em;
+                margin: 0 0 1.5em;
             }
             .txt-2 {
                 span {
@@ -235,8 +240,10 @@
             }
             .txt-3 {
                 font-family: "montserratbold";
+                font-size: 22px;                
             }
             a.btn {
+                margin: -9px 0 0 14px;
                 display: inline-block;
                 font-size: 14px;
                 color: #fff;
@@ -244,8 +251,7 @@
                 display: inline-block;
                 padding: 6px 10px;
                 line-height: 1;
-                border: 1px solid #fff;
-                margin-left: 14px;
+                border: 1px solid #fff;                
             }
             .icon {
                 position: absolute;
@@ -259,18 +265,26 @@
         vertical-align: middle;
         font-size: 12px;
         font-weight: bold;
+        color:#383838;
         font-family: "montserratbold";
         margin-top: 25px;
         float: left;
+        .icon {
+            height: 24px;
+            width: 24px;
+            vertical-align: middle;
+            margin: 0 3px;
+        }
         strong {
             display: inline-block;
             vertical-align: middle;
+            margin-right: 5px;
         }
     }
     .pay-link {
         float: right;
         margin-top: 25px;
-        a{
+        a {
             float: left;
             margin-left: 4px;
         }
