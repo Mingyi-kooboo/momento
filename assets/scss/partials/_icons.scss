@@ -1,52 +1,4 @@
 ﻿@import "icons/*.png";
-
-.icon {
-    display: inline-block;
-}
-
-.icon-cart {
-    @include icons-sprite(cart);
-    width: 16px;
-    height: 15px;
-}
-
-.icon-share {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-}
-
-.icon-arrow-breadcrumb {
-    @include icons-sprite(arrow-breadcrumb);
-    width: 22px;
-    height: 12px;
-}
-
-.icon-arrow-bottom-ad {
-    width: 9px;
-    height: 27px;
-    @include icons-sprite(arrow-bottom-ad);
-}
-
-.icon-facebook {
-    @include icons-sprite(facebook);
-}
-
-.icon-google {
-    @include icons-sprite(google);
-}
-
-.icon-twitter {
-    @include icons-sprite(twitter);
-}
-
-.icon-check {
-    @include icons-sprite(check-green);
-}
-
-
-
 /* FONT AWESOME CORE
  * -------------------------- */
 .icon-font-awesome {
@@ -1456,3 +1408,57 @@ ul.icons-ul > li .icon-li {
 .icon-share-sign:before {
     content: "\f14d";
 }
+
+
+.icon {
+    display: inline-block;
+}
+
+.icon-cart {
+    @include icons-sprite(cart);
+    width: 16px;
+    height: 15px;
+}
+
+.icon-arrow-breadcrumb {
+    @include icons-sprite(arrow-breadcrumb);
+    width: 22px;
+    height: 12px;
+}
+
+.icon-arrow-bottom-ad {
+    width: 9px;
+    height: 27px;
+    @include icons-sprite(arrow-bottom-ad);
+}
+
+.icon-facebook {
+    @include icons-sprite(facebook);
+    &:before{
+        display:none;
+    }
+}
+
+.icon-google {
+    @include icons-sprite(google);
+    &:before{
+        display:none;
+    }
+}
+
+.icon-twitter {
+    @include icons-sprite(twitter);
+    &:before{
+        display:none;
+    }
+}
+
+.icon-check {
+    @include icons-sprite(check-green);
+    &:before{
+        display:none;
+    }
+}
+
+
+
