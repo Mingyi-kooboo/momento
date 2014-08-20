@@ -1,10 +1,8 @@
 ﻿$main-color:#cb1e59;
-$font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .widget-box {
     background-color: #cb1e5a;
     color: #fff;
-    font-family: $font-fmly;
     font-size: 12px;
     padding: 20px 10px;
     line-height: 18px;
@@ -42,7 +40,6 @@ $font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .wgt-side-contact {
-    font-family: $font-fmly;
     font-size: 12px;
     color: #6a6a6a;
     line-height: 18px;
@@ -61,7 +58,6 @@ $font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .wgt-agreenment{
-    font-family: $font-fmly;
     font-size: 12px;
     color: #333;
     line-height: 24px;
@@ -81,7 +77,6 @@ $font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #333;
         font-size: 12px;
         line-height: 18px;
-        font-family: $font-fmly;
         padding-bottom: 45px;
         background: url(images/line.png) no-repeat bottom right;
         height: 100%;
@@ -127,7 +122,6 @@ $font-fmly: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 18px;
     color: #333;
-    font-family: $font-fmly;
     margin-bottom: 30px;
     dt{
         color: #9b9b9b;
