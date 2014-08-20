@@ -14,10 +14,12 @@ $color-white:#fff;
     font-size: 12px;
     display: inline-block;
     text-transform: uppercase;
-    cursor: pointer;
     text-decoration: none;
     text-align: center;
     padding: 5px 10px;
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 /*Rose  btn*/
@@ -112,6 +114,9 @@ $color-white:#fff;
     line-height: 60px;
     display: inline-block;
     text-align: center;
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 .btn-round50 {    
