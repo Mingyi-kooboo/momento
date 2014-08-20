@@ -36,7 +36,7 @@
     float: right;
     font-size: 14px;
     margin-top: 35px;
-    font-family: "Montserrat";
+    font-family: "montserratregular";
     >ul {
         >li {
             float: left;
@@ -86,10 +86,10 @@
     padding: 21px 0 20px;
     color: #fff;
     font-size: 15px;
-    font-family: "Montserrat";
+    font-family: "montserratregular";
     line-height: 30px;
     .control-label {
-        font-weight: 700;
+        font-family: "montserratbold";
         float: left;
     }
     .control-group {
@@ -126,7 +126,7 @@
         font-size: 11px;
         line-height: 18px;
         display: inline-block;
-        font-family: "Helvetica";
+        font-family: "helvetica_lightregular";
         -webkit-transform-origin: 0% 50%;
         -webkit-transform: scale(0.91667);
     }
@@ -151,7 +151,7 @@
     a,span {
         float: left;
         font-size: 11px;
-        font-family: "Helvetica";
+        font-family: "helvetica_lightregular";
         line-height: 18px;
         color: #5e5e5e;
         display: inline-block;
@@ -170,10 +170,10 @@
         h6,
         h6 a {
             font-size: 16px;
-            font-family: "Montserrat";
+            font-family: "montserratbold";
             color: #cb1150;
             line-height: 1;
-            font-weight: bold;
+           
         }
         p {
             margin-top: 1.7142857142857em;
@@ -184,12 +184,13 @@
         .info {
             margin-top: 55px;
             strong {
-                font-family: "Montserrat";
+                font-family: "montserratbold";
                 font-size: 10px;
                 -webkit-transform-origin: 0% 50%;
                 -webkit-transform: scale(0.83333);
                 display: inline-block;
                 vertical-align: middle;
+                font-weight: 400;
             }
             img {
                 vertical-align: middle;
@@ -220,7 +221,7 @@
             color: #fff;
             font-size: 18px;
             line-height: 1.1;
-            font-family: "Montserrat";
+            font-family: "montserratregular";
             padding-top: 10px;
             p {
                 padding-left: 14px;
@@ -232,7 +233,7 @@
                 }
             }
             .txt-3 {
-                font-weight: bold;
+                font-family: "montserratbold";
             }
             a.btn {
                 display: inline-block;
@@ -257,11 +258,20 @@
         vertical-align: middle;
         font-size: 12px;
         font-weight: bold;
-        font-family: "Montserrat";
+        font-family: "montserratbold";
         margin-top: 25px;
+        float: left;
         strong {
             display: inline-block;
             vertical-align: middle;
+        }
+    }
+    .pay-link {
+        float: right;
+        margin-top: 25px;
+        a{
+            float: left;
+            margin-left: 4px;
         }
     }
 }
