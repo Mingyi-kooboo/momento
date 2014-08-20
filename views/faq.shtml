@@ -3,7 +3,7 @@
     <!--#include file="wgt/wgt-breadcrumb.html" -->  
     <!--#include file="wgt/wgt-page-nav.html" -->    
     <div class="r-inner">
-        <!--#include file="wgt/wgt-faq-pageTitle.html" -->
+        <!--#include file="wgt/wgt-pageTitle-faq.html" -->
         <div class="main">
             <!--#include file="wgt/wgt-faq.html" -->
         </div>

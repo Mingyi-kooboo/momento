@@ -1,4 +1,6 @@
-﻿.widget-box {
+﻿$main-color:#cb1e59;
+
+.widget-box {
     background-color: #cb1e5a;
     color: #fff;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -45,7 +47,7 @@
     line-height: 18px;
     h3 {
         font-weight: bold;
-        color: #cb1e59;
+        color: $main-color;
         font-size: 14px;
     }
     .address {
@@ -54,5 +56,21 @@
     a {
         color: #cb1e5a;
         text-decoration: underline;
+    }
+}
+
+.wgt-agreenment{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 24px;
+    dt{
+        color: #d54b7b;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    dd{
+        margin-bottom: 30px;
     }
 }

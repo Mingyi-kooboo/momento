@@ -3,6 +3,7 @@
     <!--#include file="wgt/wgt-breadcrumb.html" -->  
     <!--#include file="wgt/wgt-page-nav.html" -->
     <div class="r-inner">
+        <!--#include file="wgt/wgt-pageTitle-voorwaarden.html" -->
         <div class="main">
             <!--#include file="wgt/wgt-agreenment.html" -->
         </div>
