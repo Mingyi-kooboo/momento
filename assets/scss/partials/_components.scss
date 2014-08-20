@@ -1,4 +1,11 @@
-﻿.page-title{
+﻿.container{
+    background: url(images/bg.png) repeat;
+}
+
+.page-title-box{
+    width: 700px;
+}
+.page-title{
     color: #cb1e59; 
     font-family: "Montserrat";
     font-size: 16px;
@@ -23,6 +30,7 @@
         color: #000; 
         font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
+        cursor: pointer;
         .title-five-box{
             display: block;
             border:solid 1px #ebebeb;

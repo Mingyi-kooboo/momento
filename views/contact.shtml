@@ -3,10 +3,11 @@
     <!--#include file="wgt/wgt-breadcrumb.html" -->  
     <!--#include file="wgt/wgt-page-nav.html" -->    
     <div class="r-inner">
+            <!--#include file="wgt/wgt-contact-pageTitle.html" -->
         <div class="main">
             <!--#include file="wgt/wgt-contactUs.html" -->
         </div>
-        <div class="side contact-rgt">
+        <div class="side">
             <!--#include file="wgt/wgt-subscribe.html" -->                       
             <!--#include file="wgt/wgt-side-contact.html" -->            
         </div>
