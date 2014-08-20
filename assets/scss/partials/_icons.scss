@@ -1434,30 +1434,14 @@ ul.icons-ul > li .icon-li {
 
 .icon-facebook {
     @include icons-sprite(facebook);
-    &:before{
-        display:none;
-    }
 }
 
 .icon-google {
     @include icons-sprite(google);
-    &:before{
-        display:none;
-    }
 }
 
 .icon-twitter {
     @include icons-sprite(twitter);
-    &:before{
-        display:none;
-    }
-}
-
-.icon-check {
-    @include icons-sprite(check-green);
-    &:before{
-        display:none;
-    }
 }
 
 

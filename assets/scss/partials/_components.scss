@@ -5,13 +5,12 @@
 }
 
 .page-title-box{
-    width: 700px;
+    max-width: 700px;
 }
 .page-title{
     color: $main-color; 
-    font-family: "Montserrat";
+    font-family: "montserratbold";
     font-size: 16px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 .page-brief{
@@ -61,9 +60,8 @@
         padding: 4px 6px;
         border:solid 1px #ebebeb;
         color: #ebebeb; 
-        font-family: "Montserrat";
-        font-size: 12px;
-        font-weight: bold;        
+        font-family: "montserratbold";
+        font-size: 12px;     
     }
     a{
         cursor: pointer;
