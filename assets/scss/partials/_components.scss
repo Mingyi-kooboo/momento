@@ -1,4 +1,6 @@
-﻿.container{
+﻿$main-color:#cb1e59;
+
+.container{
     background: url(images/bg.png) repeat;
 }
 
@@ -6,7 +8,7 @@
     width: 700px;
 }
 .page-title{
-    color: #cb1e59; 
+    color: $main-color; 
     font-family: "Montserrat";
     font-size: 16px;
     font-weight: bold;

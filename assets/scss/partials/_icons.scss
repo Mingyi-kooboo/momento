@@ -14,6 +14,7 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+    vertical-align: middle;
 }
 
 .icon-arrow-breadcrumb {
@@ -520,14 +521,6 @@ ul.icons-ul > li .icon-li {
     content: "\f044";
 }
 
-.icon-share:before {
-    content: "\f045";
-}
-
-.icon-check:before {
-    content: "\f046";
-}
-
 .icon-move:before {
     content: "\f047";
 }
@@ -835,14 +828,6 @@ ul.icons-ul > li .icon-li {
 
 .icon-phone-sign:before {
     content: "\f098";
-}
-
-.icon-twitter:before {
-    content: "\f099";
-}
-
-.icon-facebook:before {
-    content: "\f09a";
 }
 
 .icon-github:before {
