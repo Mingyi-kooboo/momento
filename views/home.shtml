@@ -1,7 +1,7 @@
 <!--#include file="inc/p-header-1.html" -->
 <div class="container">    
     <!--#include file="wgt/wgt-slider.html" -->
-    <!--#include file="wgt/wgt-ad-three-steps.html" -->    
+    <!--#include file="wgt/wgt-concept.html" -->    
     <!--#include file="wgt/wgt-gift-card-search.html" -->   
     <!--#include file="wgt/wgt-product-list-home.html" -->    
     <!--#include file="wgt/wgt-website-note.html" -->    

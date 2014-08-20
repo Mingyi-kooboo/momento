@@ -32,6 +32,10 @@ $color-white:#fff;
     border-color: $color-rose;
     background-color: transparent;
     color: $color-rose;
+    &:hover{
+        background-color: $color-rose;
+        color:#fff;
+    }
 }
 
 /*Dark green btn*/
