@@ -17,11 +17,37 @@ $(function() {
 
 
     $('.slider2').flexslider({
-        pauseOnAction: false, 
+        pauseOnAction: false,
         directionNav: false,
         controlNav: "thumbnails"
     });
-    
+
     /* Date Picker */
     $('.date_picker').datepicker();
+
+    mq();
+
 });
+
+
+function mq() {
+    var mq = window.matchMedia('@media screen and (max-width: 960px)');
+    if (mq.matches) {
+        return;
+    } else {
+        if ($("body.home").length > 0) {
+            $(".wgt-concept").insertAfter(".wgt-gift-card-search");
+        }
+
+    }
+
+    mq.addListener(function(changed) {
+        if (changed.matches) {
+            return;
+        } else {
+            if ($("body.home").length > 0) {
+                $(".wgt-concept").insertAfter(".wgt-gift-card-search");
+            }
+        }
+    });
+}
