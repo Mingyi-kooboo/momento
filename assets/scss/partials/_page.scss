@@ -15,6 +15,21 @@
     .header,.footer{
         background-color: #008b92;
     }
+    .widget-box{
+        background-color: #008b91;
+        .search-block{
+            .search-btn{
+                background-color: rgba(0, 139, 146, 0.5);
+                color: #008b91;
+            }
+        }       
+    }
+    .wgt-side-contact{
+        h3, a{
+            color: #008b91;
+        }
+    }
+      
 }
 
 

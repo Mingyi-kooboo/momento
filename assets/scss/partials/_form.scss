@@ -17,7 +17,7 @@ select, input[type="text"], input[type="password"],textarea {
     margin-bottom: 10px;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="date"] {
     width: 100%;
     text-overflow: ellipsis;
 }
@@ -44,7 +44,7 @@ table{
 .form{
     color: #333; 
     font-size: 12px;
-    input[type="text"], input[type="password"]{
+    input[type="text"], input[type="password"], input[type="date"]{
         height: 40px;
         line-height: 40px;
     }
