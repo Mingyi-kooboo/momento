@@ -1,0 +1,17 @@
+<!--#include file="inc/p-header-3.html" -->
+<div class="container">
+    <!--#include file="wgt/wgt-breadcrumb.html" -->  
+    <!--#include file="wgt/wgt-page-nav.html" --> 
+    <div class="r-inner">
+        <div class="main">
+            <!--#include file="wgt/wgt-product-detail.html" -->
+        </div>
+        <div class="side">
+            <!--#include file="wgt/wgt-benefits.html" -->            
+        </div>
+    </div>
+    <!--#include file="wgt/wgt-location-detail.html" -->  
+    <!--#include file="wgt/wgt-locatie-reserveren.html" -->
+    <!--#include file="wgt/wgt-detail-map.html" -->    
+</div>
+<!--#include file="inc/p-footer.html" -->
