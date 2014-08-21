@@ -7,7 +7,7 @@
             <!--#include file="wgt/wgt-product-detail.html" -->
         </div>
         <div class="side">
-            <!--#include file="wgt/wgt-side-ad-why.html" -->            
+            <!--#include file="wgt/wgt-benefits.html" -->            
         </div>
     </div>
     <!--#include file="wgt/wgt-location-detail.html" -->    
