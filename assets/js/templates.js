@@ -21,4 +21,7 @@ $(function() {
         directionNav: false,
         controlNav: "thumbnails"
     });
+    
+    /* Date Picker */
+    $('.date_picker').datepicker();
 });

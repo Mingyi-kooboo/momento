@@ -125,7 +125,9 @@ $color-blue: #29639b;
     .product-list-1 {
         .name{
             h2{
-             color: $color-rose;                     
+                a{
+                    color: $color-rose;    
+                }                 
             }          
         }
         .btn1{
@@ -143,7 +145,9 @@ $color-blue: #29639b;
     .product-list-2 {
         .name{
             h2{
-                color: $color-darkGreen;                    
+                a{
+                    color: $color-darkGreen;   
+                }                     
             }            
         }
         .btn1{
@@ -161,7 +165,10 @@ $color-blue: #29639b;
     .product-list-3 {
         .name{
             h2{
-                color: $color-purple;                    
+                a{
+                    color: $color-purple; 
+                } 
+                                   
             }            
         }
         .btn1{
@@ -178,8 +185,10 @@ $color-blue: #29639b;
     }
     .product-list-4 {
         .name{
-            h2{
-                color: $color-yellow;                    
+            h2{                
+                a{
+                    color: $color-yellow;
+                }                     
             }            
         }
         .btn1{
@@ -197,7 +206,10 @@ $color-blue: #29639b;
     .product-list-5 {
         .name{
             h2{
-                color: $color-red;                    
+                
+                a{
+                    color: $color-red;     
+                }          
             }            
         }
         .btn1{
@@ -215,7 +227,10 @@ $color-blue: #29639b;
     .product-list-6 {
         .name{
             h2{
-                color: $color-blue;                    
+                
+                a{
+                    color: $color-blue;
+                }                     
             }            
         }
         .btn1{
@@ -401,4 +416,24 @@ $color-blue: #29639b;
         display: block;
         width: 100%;
     }
+}
+
+.wgt-locatie-reserveren{
+    background: url(images/bg-steps2.png) 50% 0 no-repeat;
+    padding: 93px 0 2px;
+    position: relative;
+    top: -38px;
+    .form{
+        width: 700px;
+        th,td{
+            vertical-align: top;
+        }
+        th{
+            padding-top: 12px;
+        }
+        .th2{
+            padding-left: 20px;
+        }
+    }
+
 }
