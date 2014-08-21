@@ -347,3 +347,58 @@ $color-blue: #29639b;
         text-transform:uppercase;
     }
 }
+
+.wgt-location-detail {
+    background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
+    padding: 60px 0 50px;
+    .slider2{
+        position: relative;
+    }
+    .images{
+        float: left;
+        width: 300px;
+    }
+    .content{
+        line-height: 18px;
+        color: #000;
+        font-weight: bold;
+        padding-left: 415px;
+        h3{
+            color: #008b91; 
+            font-family: "montserratbold";
+            font-size: 22px;
+            line-height: 26px;
+        }
+        blockquote{
+            margin: 20px 0;
+        }
+        dt{
+           color: #008b92; 
+        }
+        dd{
+            margin-bottom: 20px;
+        }
+        .btn-rectangule{
+            margin-right: 15px;
+        }
+    }
+    .flex-control-thumbs {
+        position: absolute;
+        top: 0;
+        left: 320px;
+        padding: 0;
+        margin: 0;
+        li{
+            width: 59px;
+            clear: left;
+            margin-bottom: 20px;
+        }
+    }
+}
+.wgt-detail-map{
+    width: 100%;
+    img{
+        display: block;
+        width: 100%;
+    }
+}
