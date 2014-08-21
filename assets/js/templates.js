@@ -26,28 +26,26 @@ $(function() {
     $('.date_picker').datepicker();
 
     mq();
+    $("wgt-menu>i").click(function() {
+        $(".wgt-menu>ul").toggleClass("active");
+    });
+
+
 
 });
 
 
 function mq() {
-    var mq = window.matchMedia('@media screen and (max-width: 960px)');
-    if (mq.matches) {
-        return;
-    } else {
-        if ($("body.home").length > 0) {
-            $(".wgt-concept").insertAfter(".wgt-gift-card-search");
-        }
-
-    }
-
-    mq.addListener(function(changed) {
-        if (changed.matches) {
-            return;
-        } else {
-            if ($("body.home").length > 0) {
-                $(".wgt-concept").insertAfter(".wgt-gift-card-search");
-            }
-        }
+    mq_fun();
+    $(window).resize(function() {
+        mq_fun();
     });
+}
+
+function mq_fun() {
+    if ($(window).width() <= 960) {
+        $(".wgt-concept").insertAfter(".wgt-gift-card-search");
+    } else {
+        $(".wgt-gift-card-search").insertAfter(".wgt-concept");
+    }
 }

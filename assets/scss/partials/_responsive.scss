@@ -85,6 +85,9 @@
                 }
             }
         }
+        ul.active{
+            display: block;
+        }
     }
     .wgt-slider {
         height: auto;
@@ -121,6 +124,9 @@
         .symbol {
             display: block;
             width: auto;
+        }
+        .r-inner{
+            margin:0;
         }
     }
     .wgt-product-list-home {
