@@ -17,6 +17,7 @@ $color-white:#fff;
     text-decoration: none;
     text-align: center;
     padding: 5px 10px;
+    border:solid 1px;
     &:hover{
         text-decoration: none;
     }
@@ -25,7 +26,7 @@ $color-white:#fff;
 /*Rose  btn*/
 .btn-rect-stl1 {
     background-color: $color-rose;
-    border: solid 1px $color-rose;
+    border-color: $color-rose;
 }
 
 .btn-rect-stl1-1 {
@@ -41,7 +42,7 @@ $color-white:#fff;
 /*Dark green btn*/
 .btn-rect-stl2 {
     background-color: $color-darkGreen;
-    border: solid 1px $color-darkGreen;
+    border-color: $color-darkGreen;
 }
 
 .btn-rect-stl2-1 {
@@ -53,7 +54,7 @@ $color-white:#fff;
 /*Purple btn*/
 .btn-rect-stl3 {
     background-color: $color-purple;
-    border: solid 1px $color-purple;
+    border-color: $color-purple;
 }
 
 .btn-rect-stl3-1 {
@@ -65,7 +66,7 @@ $color-white:#fff;
 /*Yellow btn*/
 .btn-rect-stl4 {
     background-color: $color-yellow;
-    border: solid 1px $color-yellow;
+    border-color: $color-yellow;
 }
 
 .btn-rect-stl4-1 {
@@ -77,7 +78,7 @@ $color-white:#fff;
 /*Red btn*/
 .btn-rect-stl5 {
     background-color: $color-red;
-    border: solid 1px $color-red;
+    border-color: $color-red;
 }
 
 .btn-rect-stl5-1 {
@@ -89,7 +90,7 @@ $color-white:#fff;
 /*Blue btn*/
 .btn-rect-stl6 {
     background-color: $color-blue;
-    border: solid 1px $color-blue;
+    border-color: $color-blue;
 }
 
 .btn-rect-stl6-1 {

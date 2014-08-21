@@ -1,4 +1,10 @@
 ﻿$main-color:#cb1e59;
+$color-rose: #cb114f;
+$color-darkGreen: #15979d;
+$color-purple: #493369;
+$color-yellow: #e5c181;
+$color-red: #c12325;
+$color-blue: #29639b;
 
 .widget-box {
     background-color: #cb1e5a;
@@ -96,12 +102,8 @@
                 position: relative;
                 font-family: "montserratbold";
                 font-size: 20px;
-                color: #383838;
                 min-height: 80px;
                 line-height: 24px;
-                h2{
-                color: #cb114f;                     
-                }
                 .btn-round{
                     position: absolute;
                     right: 0;
@@ -114,6 +116,117 @@
             .btn-rectangule{
                 margin-right: 15px;
             }
+        }
+        .btn2{
+            background-color: transparent;            
+        }
+    }
+    .product-list-1 {
+        .name{
+            h2{
+             color: $color-rose;                     
+            }          
+        }
+        .btn1{
+            background-color: $color-rose;
+            border-color: $color-rose;
+        }
+        .btn2{
+            border-color: $color-rose;
+            color: $color-rose;
+        }
+        .btn-round{
+            background-color: #cb1d59;
+        }
+    }
+    .product-list-2 {
+        .name{
+            h2{
+                color: $color-darkGreen;                    
+            }            
+        }
+        .btn1{
+            background-color: $color-darkGreen;
+            border-color: $color-darkGreen;
+        }
+        .btn2{
+            border-color: $color-darkGreen;
+            color: $color-darkGreen;
+        }
+        .btn-round{
+            background-color: $color-darkGreen;
+        }
+    }
+    .product-list-3 {
+        .name{
+            h2{
+                color: $color-purple;                    
+            }            
+        }
+        .btn1{
+            background-color: $color-purple;
+            border-color: $color-purple;
+        }
+        .btn2{
+            border-color: $color-purple;
+            color: $color-purple;
+        }
+        .btn-round{
+            background-color: $color-purple;
+        }
+    }
+    .product-list-4 {
+        .name{
+            h2{
+                color: $color-yellow;                    
+            }            
+        }
+        .btn1{
+            background-color: $color-yellow;
+            border-color: $color-yellow;
+        }
+        .btn2{
+            border-color: $color-yellow;
+            color: $color-yellow;
+        }
+        .btn-round{
+            background-color: $color-yellow;
+        }
+    }
+    .product-list-5 {
+        .name{
+            h2{
+                color: $color-red;                    
+            }            
+        }
+        .btn1{
+            background-color: $color-red;
+            border-color: $color-red;
+        }
+        .btn2{
+            border-color: $color-red;
+            color: $color-red;
+        }
+        .btn-round{
+            background-color: $color-red;
+        }
+    }
+    .product-list-6 {
+        .name{
+            h2{
+                color: $color-blue;                    
+            }            
+        }
+        .btn1{
+            background-color: $color-blue;
+            border-color: $color-blue;
+        }
+        .btn2{
+            border-color: $color-blue;
+            color: $color-blue;
+        }
+        .btn-round{
+            background-color: $color-blue;
         }
     }
 }
