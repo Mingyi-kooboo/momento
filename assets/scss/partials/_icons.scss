@@ -1444,5 +1444,13 @@ ul.icons-ul > li .icon-li {
     @include icons-sprite(twitter);
 }
 
+.icon-desktop{
+    @include icons-sprite(desktop);
+    width:8px;
+    height:7px;
+    font-size: 0;
+    line-height:0;
+}
+
 
 
