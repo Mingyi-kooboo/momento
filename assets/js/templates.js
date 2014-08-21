@@ -15,4 +15,10 @@ $(function() {
         }
     });
 
+
+    $('.slider2').flexslider({
+        pauseOnAction: false, 
+        directionNav: false,
+        controlNav: "thumbnails"
+    });
 });
