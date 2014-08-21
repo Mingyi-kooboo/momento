@@ -10,6 +10,7 @@
             <!--#include file="wgt/wgt-benefits.html" -->            
         </div>
     </div>
-    <!--#include file="wgt/wgt-location-detail.html" -->    
+    <!--#include file="wgt/wgt-location-detail.html" -->  
+    <!--#include file="wgt/wgt-detail-map.html" -->    
 </div>
 <!--#include file="inc/p-footer.html" -->
