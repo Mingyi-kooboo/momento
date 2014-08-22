@@ -2,7 +2,7 @@
 <div class="container">
     <!--#include file="wgt/wgt-breadcrumb.html" -->  
     <!--#include file="wgt/wgt-page-nav.html" --> 
-    <div class="r-inner">
+    <div class="r-inner main-block1">
         <div class="main">
             <!--#include file="wgt/wgt-product-detail-2.html" -->
         </div>
@@ -10,7 +10,7 @@
             <!--#include file="wgt/wgt-benefits.html" -->            
         </div>
     </div>
-    <!--#include file="wgt/wgt-location-detail.html" -->  
+    <!--#include file="wgt/wgt-location-detail-2.html" -->  
     <!--#include file="wgt/wgt-locatie-reserveren.html" -->
     <!--#include file="wgt/wgt-detail-map.html" -->    
 </div>
