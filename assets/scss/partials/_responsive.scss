@@ -41,6 +41,7 @@
         .contact-tab {
             th {
                 width: 100%;
+                padding-top: 3px;
             }
             .btn-rect-stl1-1 {
                 display: block;
@@ -49,8 +50,20 @@
                 margin-bottom: 20px;
             }
         }
+        .error.pc {
+            display: none;
+        }
+        .error.mobile {
+            display: inline-block;
+            position: static;
+        }
+        .text-input {
+            margin-bottom: 0;
+        }
+        textarea {
+            margin-bottom: 4px;
+        }
     }
-    
     /* wgt setting */
     .wgt-logo {
         float: right;
@@ -193,7 +206,7 @@
     .wgt-product-list {
         padding-top: 14px;
         li {
-            background-size: 130% ;
+            background-size: 130%;
             margin-bottom: 17px;
             padding-bottom: 27px;
             background-position: 50% bottom;
@@ -229,12 +242,11 @@
                         right: 20px;
                     }
                 }
-                .product-descript{
+                .product-descript {
                     min-height: 0;
                     margin-bottom: 15px;
                 }
             }
-
         }
     }
     .wgt-faq {

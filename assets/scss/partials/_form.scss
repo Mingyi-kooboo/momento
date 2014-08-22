@@ -28,42 +28,53 @@ textarea {
     width: 100%;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
-.request,.error{
-    color: #d1232a; 
+
+.request,.error {
+    color: #d1232a;
     font-size: 10px;
 }
 
-.error{
-    margin-bottom: 10px;
-    -webkit-transform-origin: 50% 0%;
-   -webkit-transform: translate(-50px,0) scale(0.8333);
+.error {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: translate(0, 0) scale(0.8333);
 }
 
-.form{
-    color: #333; 
+.form {
+    color: #333;
     font-size: 12px;
-    input[type="text"], input[type="password"], input[type="date"]{
+    input[type="text"], input[type="password"], input[type="date"] {
         height: 40px;
         line-height: 40px;
     }
     textarea {
         height: 183px;
     }
+    .request{margin-right: 10px;}
     .contact-tab {
-         th {
+        th {
             vertical-align: top;
             width: 18%;
             padding-top: 10px;
         }
-        .input-out-box{
+        .input-out-box {
             position: relative;
         }
     }
-    .error{
-        padding-left: 10px;
+    .text-input {
+        margin-bottom: 21px;
+    }
+    .error {
+        position: absolute;
+        bottom: 0;
+    }
+    .error.pc {
+        display: block;
+    }
+    .error.mobile {
+        display: none;
     }
 }
