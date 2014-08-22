@@ -245,6 +245,10 @@ $color-blue: #29639b;
             background-color: $color-blue;
         }
     }
+    li:last-child{
+        background: none;
+        margin-bottom: 0;        
+    }
 }
 
 .banner-box{
@@ -308,16 +312,14 @@ $color-blue: #29639b;
         }
     }
     .tip-content{
-        .rgt-bolck{
-            float: right;
-            width: 230px;
-        }
         .lft-block{
             width: 380px;
             padding-left: 10px;
             padding-top: 35px;
             line-height: 18px;
             color: #333;
+            float: left;
+            margin-right: 80px;
             p{
                 margin-bottom: 20px;
             }
@@ -325,9 +327,11 @@ $color-blue: #29639b;
                 font-weight: 700;
             }
         }
-        .btn-rectangule{
-            font-size: 14px;
-            margin-top: 25px;
+        .button{
+            padding-left: 10px;
+            .btn-rectangule{
+                font-size: 14px;
+            }
         }
     }
 }
@@ -444,6 +448,7 @@ $color-blue: #29639b;
     }
     .name{
         color: #008b91;
+        font-size: 14px;
     }
     .page-brief{
         margin-bottom: 20px;

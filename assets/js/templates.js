@@ -1,9 +1,9 @@
 $(function() {
     $(".five-box > li").click(function() {
-        $(this).siblings().children("p").hide().siblings("strong").removeClass("title-FB-hover");
-        $(this).children("p").show().siblings("strong").addClass("title-FB-hover");
-        $(this).siblings().children("strong").children("span").removeClass("icon-minus").addClass("icon-plus");
-        $(this).children("strong").children("span").removeClass("icon-plus").addClass("icon-minus");
+        $(this).siblings().children("div").hide().siblings("p").removeClass("title-FB-hover");
+        $(this).children("div").show().siblings("p").addClass("title-FB-hover");
+        $(this).siblings().children("p").children("span").removeClass("icon-minus").addClass("icon-plus");
+        $(this).children("p").children("span").removeClass("icon-plus").addClass("icon-minus");
     });
 
 

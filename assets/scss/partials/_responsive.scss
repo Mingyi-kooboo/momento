@@ -1,6 +1,9 @@
 ﻿/* mobile */
 
 @media screen and (max-width: 960px) {
+    .container {
+        background: #fff;
+    }
     .r-inner {
         width: auto;
         margin-left: 10px;
@@ -36,6 +39,9 @@
             width: 100%;
         }
         .contact-tab {
+            th {
+                width: 100%;
+            }
             .btn-rect-stl1-1 {
                 display: block;
                 background-color: #cb1150;
@@ -44,6 +50,10 @@
             }
         }
     }
+    .error {
+        -webkit-transform: translate(-20px, 0) scale(0.8333);
+    }
+    
     /* wgt setting */
     .wgt-logo {
         float: right;
@@ -192,9 +202,11 @@
                 text-align: center;
                 width: auto;
                 margin: 0;
+                font-size: 0;
+                line-height: 0;
                 img {
                     max-width: 100%;
-                    display: inline-block;
+                    border: solid 1px #e1e1e1;
                 }
             }
             .list-cont {
@@ -209,7 +221,8 @@
                 }
                 .name {
                     .btn-round {
-                        top: -10px;
+                        top: -15px;
+                        right: 20px;
                     }
                 }
             }
@@ -227,9 +240,24 @@
             display: inline-block;
         }
         .tip {
+            margin-left: -10px;
+            margin-right: -10px;
             span {
                 display: block;
                 margin-left: 0;
+            }
+        }
+        .tip-content {
+            .lft-block {
+                width: auto;
+                padding-left: 0;
+                padding-top: 15px;
+                margin-right: 0;
+                clear: left;
+            }
+            .rgt-bolck {
+                text-align: center;
+                margin-bottom: 15px;
             }
         }
         table input[type="text"] {
@@ -308,22 +336,19 @@
             }
         }
     }
-    
-    .wgt-locatie-reserveren2{
+    .wgt-locatie-reserveren2 {
         margin-top: 30px;
-        min-height:420px;
-        .page-title{
+        min-height: 420px;
+        .page-title {
             font-size: 18px;
             line-height: 1.1;
         }
     }
-
-    .wgt-locations{
+    .wgt-locations {
         background: none;
         background-color: #f6f5f4;
     }
-    
-    .wgt-map{
+    .wgt-map {
         width: auto;
         overflow: visible;
     }
@@ -338,11 +363,11 @@
             display: none;
         }
     }
-    .verkooppunten{
-        .page-title-box.page-map-title{
+    .verkooppunten {
+        .page-title-box.page-map-title {
             max-width: 100%;
         }
-        .pagination{
+        .pagination {
             display: none;
         }
     }
