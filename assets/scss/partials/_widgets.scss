@@ -143,11 +143,14 @@
     .r-inner {
         padding: 7px 0 8px;
     }
-    .icon {
+    .icon-sort-down {
         position: absolute;
-        bottom: -12px;
+        bottom: -23px;
         left: 50%;
         margin-left: -11px;
+        color: #ebebeb;
+        font-size: 36px;
+        width: 22px;
     }
     p {
         -webkit-transform-origin: 0% 50%;
