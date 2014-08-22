@@ -1,7 +1,7 @@
 ﻿/* mobile */
 
 @media screen and (max-width: 960px) {
-    .container{
+    .container {
         background: #fff;
     }
     .r-inner {
@@ -21,10 +21,10 @@
     .side {
         display: none;
     }
-    .verkooppunten .side{
-    	display: block;
-    	width:auto;
-    	float: none;
+    .verkooppunten .side {
+        display: block;
+        width: auto;
+        float: none;
     }
     .main {
         width: auto;
@@ -39,8 +39,8 @@
             width: 100%;
         }
         .contact-tab {
-            th{
-                 width: 100%;
+            th {
+                width: 100%;
             }
             .btn-rect-stl1-1 {
                 display: block;
@@ -51,9 +51,10 @@
         }
     }
     .error {
-    -webkit-transform: translate(-20px, 0) scale(0.8333);
+        -webkit-transform: translate(-20px, 0) scale(0.8333);
     }
-    /* wgt */
+    
+    /* wgt setting */
     .wgt-logo {
         float: right;
         a {
@@ -94,7 +95,7 @@
                 }
             }
         }
-        ul.active{
+        ul.active {
             display: block;
         }
     }
@@ -134,8 +135,8 @@
             display: block;
             width: auto;
         }
-        .r-inner{
-            margin:0;
+        .r-inner {
+            margin: 0;
         }
     }
     .wgt-product-list-home {
@@ -176,11 +177,6 @@
             }
         }
     }
-    .home {
-        .wgt-website-note {
-            display: block;
-        }
-    }
     .wgt-footer-nav {
         display: none;
     }
@@ -206,11 +202,11 @@
                 text-align: center;
                 width: auto;
                 margin: 0;
-                font-size:0;
-                line-height:0;
+                font-size: 0;
+                line-height: 0;
                 img {
                     max-width: 100%;
-                    border:solid 1px #e1e1e1;
+                    border: solid 1px #e1e1e1;
                 }
             }
             .list-cont {
@@ -244,22 +240,22 @@
             display: inline-block;
         }
         .tip {
-                margin-left: -10px;
-                margin-right: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
             span {
                 display: block;
                 margin-left: 0;
             }
         }
         .tip-content {
-            .lft-block{
+            .lft-block {
                 width: auto;
                 padding-left: 0;
                 padding-top: 15px;
                 margin-right: 0;
                 clear: left;
             }
-            .rgt-bolck{
+            .rgt-bolck {
                 text-align: center;
                 margin-bottom: 15px;
             }
@@ -320,6 +316,59 @@
                     display: none;
                 }
             }
+        }
+    }
+    .wgt-locatie-reserveren {
+        background-color: #f6f5f4;
+        .form {
+            width: auto;
+            th {
+                padding-top: 0;
+            }
+            .th2 {
+                padding-left: 0;
+            }
+            input[type="text"],input[type="password"],input[type="date"] {
+                margin-bottom: 2px;
+            }
+            .btn-rectangule {
+                margin-top: 21px;
+            }
+        }
+    }
+    .wgt-locatie-reserveren2 {
+        margin-top: 30px;
+        min-height: 420px;
+        .page-title {
+            font-size: 18px;
+            line-height: 1.1;
+        }
+    }
+    .wgt-locations {
+        background: none;
+        background-color: #f6f5f4;
+    }
+    .wgt-map {
+        width: auto;
+        overflow: visible;
+    }
+    /* page wgt setting */
+    .home {
+        .wgt-website-note {
+            display: block;
+        }
+    }
+    .locatie-detail {
+        .wgt-product-list {
+            display: none;
+        }
+    }
+    .verkooppunten {
+        .page-title-box.page-map-title {
+            max-width: 100%;
+        }
+        .pagination {
+            display: none;
         }
     }
 }
