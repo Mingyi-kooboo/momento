@@ -4,7 +4,7 @@
     <!--#include file="wgt/wgt-page-nav.html" --> 
     <div class="r-inner">
         <div class="main">
-            <!--#include file="wgt/wgt-product-detail.html" -->
+            <!--#include file="wgt/wgt-product-detail-2.html" -->
         </div>
         <div class="side">
             <!--#include file="wgt/wgt-benefits.html" -->            
