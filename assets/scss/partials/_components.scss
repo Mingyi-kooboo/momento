@@ -48,10 +48,17 @@
             border:solid 1px #ebebeb;
             padding: 10px;
             margin-bottom: 3px;    
-            .icon-plus, .icon-minus{
+            .icon-font-awesome{
                 color: #cb1e5a; 
-                margin-right: 10px;
-            }        
+                float: left;
+                width: 25px;
+                font-size: 16px;
+            } 
+            strong{
+                margin-left: 25px;
+                display: block;
+                overflow: hidden;
+            }       
         }
         .title-FB-hover{
             font-weight: bold;

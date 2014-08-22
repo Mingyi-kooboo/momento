@@ -39,6 +39,7 @@ table{
 
 .error{
     margin-bottom: 10px;
+   -webkit-transform: translate(-50px,0) scale(0.8333);
 }
 
 .form{
@@ -55,5 +56,8 @@ table{
         vertical-align: top;
         width: 18%;
         padding-top: 10px;
+    }
+    .error{
+        padding-left: 10px;
     }
 }
