@@ -59,9 +59,19 @@
         }
         .text-input {
             margin-bottom: 0;
+            padding-bottom: 0;
         }
         textarea {
             margin-bottom: 4px;
+        }
+        .input-out-box {
+            padding-bottom: 0;
+        }
+    }
+    
+    .search-map {
+        .search_input {
+            width: 74%;
         }
     }
     /* wgt setting */
@@ -254,6 +264,21 @@
     }
     .wgt-giftcard {
         margin-bottom: 28px;
+        &.form {
+            .input-out-box {
+                padding-bottom: 15px;
+            }
+        }
+        table {
+            .error {
+                bottom: 3px;
+                padding-left: 0;
+            }
+            .btn-rectangule {
+                height: 18px;
+                line-height: 18px;
+            }
+        }
         .btn-rect-stl1 {
             display: block;
         }
@@ -263,9 +288,12 @@
         .tip {
             margin-left: -10px;
             margin-right: -10px;
+            padding-right: 10px;
             span {
                 display: block;
                 margin-left: 0;
+                font-size: 26px;
+                padding: 5px 0 0;
             }
         }
         .tip-content {
@@ -279,6 +307,9 @@
             .rgt-bolck {
                 text-align: center;
                 margin-bottom: 15px;
+            }
+            .button {
+                float: none;
             }
         }
         table input[type="text"] {
@@ -321,7 +352,7 @@
             }
         }
         .list-opts {
-            padding-top: 0;
+            padding: 0 0 9px;
             .btn-rect-stl5 {
                 display: none;
             }
@@ -340,6 +371,9 @@
         }
     }
     .wgt-locatie-reserveren {
+        top: 0;
+        background: none;
+        padding: 12px 0 14px;
         background-color: #f6f5f4;
         .form {
             width: auto;
@@ -366,12 +400,65 @@
         }
     }
     .wgt-locations {
+        h2 {
+            font-size: 16px;
+        }
         background: none;
         background-color: #f6f5f4;
     }
     .wgt-map {
         width: auto;
         overflow: visible;
+        margin-left: -10px;
+        margin-right: -10px;
+        img {
+            min-width: 100%;
+        }
+    }
+    .wgt-location-detail {
+        background: none;
+        padding: 10px 0 23px;
+        .lft-block {
+            float: none;
+            width: auto;
+        }
+        .flex-control-thumbs {
+            margin-top: 20px;
+            position: static;
+            li {
+                float: left;
+                clear: none;
+                margin-right: 21px;
+            }
+        }
+        .slider2 {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .btn-rectangule {
+            margin-right: 0;
+        }
+        .btn1 {
+            float: left;
+        }
+        .btn3 {
+            float: right;
+        }
+        .btn2 {
+            display: none;
+        }
+        .btn-rect-stl8 {
+            width: auto;
+            display: block;
+            margin: 12px 0 17px;
+        }
+        .content h3 {
+            font-size: 18px;
+            padding-bottom: 3px;
+        }
+    }
+    .wgt-mapInfoCon {
+        padding-top: 20px;
     }
     /* page wgt setting */
     .home {

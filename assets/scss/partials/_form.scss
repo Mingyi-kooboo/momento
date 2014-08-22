@@ -53,19 +53,22 @@ table {
     textarea {
         height: 183px;
     }
-    .request{margin-right: 10px;}
+    .request {
+        margin-right: 10px;
+    }
     .contact-tab {
         th {
             vertical-align: top;
             width: 18%;
             padding-top: 10px;
         }
-        .input-out-box {
-            position: relative;
-        }
+    }
+    .input-out-box {
+        position: relative;
+        padding-bottom: 21px;
     }
     .text-input {
-        margin-bottom: 21px;
+        margin-bottom: 0px;
     }
     .error {
         position: absolute;
