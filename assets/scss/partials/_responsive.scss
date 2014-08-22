@@ -322,4 +322,64 @@
             }
         }
     }
+    .wgt-location-detail {
+        background: none;
+        padding: 10px 0 20px;
+        .lft-block{
+            clear:left;
+            width: 100%;
+            text-align: center;
+        }
+        .flex-control-thumbs{
+            position: static;
+            margin-top: 20px;
+        }
+        .flex-control-thumbs li{
+            margin-bottom: 15px;
+            margin-right: 20px;
+            clear:none;
+        }
+        .btn-rect-stl8{
+            width: auto;
+            margin-top: 0;
+            margin-bottom: 20px;
+
+        }
+        .content{
+            padding-left: 0;
+            .btn-rectangule{
+                margin-right: 0;
+            }
+            .btn2{
+                display: none;
+            }
+            .btn3{
+                float: right;
+            }
+        }
+    }
+    .main-block1{
+        display: none;
+    }
+    .wgt-locatie-reserveren {
+        background: #f5f5f3;
+        padding: 10px 0 20px;
+        position: static;
+        top: 0;
+        .form{
+            width: 100%;
+            th{
+                padding: 5px 0;
+            }
+            .th2{
+                padding-left: 0;
+            }
+            select, input[type="text"], input[type="password"], textarea{
+                margin-bottom: 0;
+            }
+            .text-right{
+                padding-top: 25px;
+            }
+        } 
+    }
 }

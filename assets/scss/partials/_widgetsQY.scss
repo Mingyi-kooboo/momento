@@ -370,12 +370,19 @@ $color-blue: #29639b;
 .wgt-location-detail {
     background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
     padding: 60px 0 50px;
+    .lft-block{
+        float: left;
+        width: 415px;        
+    }
     .slider2{
         position: relative;
     }
-    .images{
-        float: left;
-        width: 300px;
+    .btn-rect-stl8{
+        background-color: #ea8400;
+        border-color: #ea8400;
+        display: block;
+        margin-top: 31px;
+        width: 278px;
     }
     .content{
         line-height: 18px;
@@ -399,6 +406,15 @@ $color-blue: #29639b;
         }
         .btn-rectangule{
             margin-right: 15px;
+        }
+        .btn1{
+            background-color: #15979d;
+            border-color: #15979d;
+        }
+        .btn2, .btn3{
+            border-color: #15979d;
+            background-color: transparent;
+            color: #15979d;
         }
     }
     .flex-control-thumbs {
@@ -452,6 +468,9 @@ $color-blue: #29639b;
     }
     .page-brief{
         margin-bottom: 20px;
-        font-weight: bold;
+        strong{
+            font-weight: bold;  
+            font-family: 'montserratbold';          
+        }
     }
 }
