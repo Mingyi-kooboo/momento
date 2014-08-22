@@ -1,4 +1,4 @@
-<!--#include file="inc/p-header-3.html" -->
+<!--#include file="inc/p-header-3-locatie-detail.html" -->
 <div class="container">
     <!--#include file="wgt/wgt-breadcrumb.html" -->  
     <!--#include file="wgt/wgt-page-nav.html" --> 

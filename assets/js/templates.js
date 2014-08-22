@@ -25,13 +25,11 @@ $(function() {
     /* Date Picker */
     $('.date_picker').datepicker();
 
+    /* media queries */
     mq();
-    $("wgt-menu>i").click(function() {
+    $(".wgt-menu>i").click(function() {       
         $(".wgt-menu>ul").toggleClass("active");
     });
-
-
-
 });
 
 

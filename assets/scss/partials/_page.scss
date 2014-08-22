@@ -13,27 +13,27 @@
 
 .page-3{
     .header,.footer{
-        background-color: #008b92;
+        background-color: #16979d;
     }
     .widget-box{
-        background-color: #008b91;
+        background-color: #16979d;
         .search-block{
             .search-btn{
                 background-color: rgba(0, 139, 146, 0.5);
-                color: #008b91;
+                color: #16979d;
             }
         }       
     }
     .wgt-side-contact{
         h3, a{
-            color: #008b91;
+            color: #16979d;
         }
     }
     .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a{
-        color:#008b91;
+        color:#16979d;
     }
     .page-title{
-        color:#008b91;
+        color:#16979d;
     }      
 }
 
@@ -42,4 +42,31 @@
     .header,.footer{
         background-color: #c22426;
     }
+}
+
+
+.page-5{
+    .header,.footer{
+        background-color: #008b92;
+    }
+    .widget-box{
+        background-color: #008b92;
+        .search-block{
+            .search-btn{
+                background-color: rgba(0, 139, 146, 0.5);
+                color: #008b92;
+            }
+        }       
+    }
+    .wgt-side-contact{
+        h3, a{
+            color: #008b92;
+        }
+    }
+    .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a{
+        color:#008b92;
+    }
+    .page-title{
+        color:#008b92;
+    }      
 }
