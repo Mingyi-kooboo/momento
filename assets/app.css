@@ -157,9 +157,9 @@ footer.footer {
   font-weight: normal;
   font-style: normal; }
 
-/* line 106, icons/*.png */
-.icons-sprite, .icon-cart, .icon-arrow-breadcrumb, .icon-arrow-bottom-ad, .icon-facebook, .icon-google, .icon-twitter, .icon-desktop, .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
-  background: url('images/icons-s384bbdab18.png') no-repeat; }
+/* line 98, icons/*.png */
+.icons-sprite, .icon-cart, .icon-arrow-bottom-ad, .icon-facebook, .icon-google, .icon-twitter, .icon-desktop, .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  background: url('images/icons-s32ea0a4cf3.png') no-repeat; }
 
 /* FONT AWESOME CORE
  * -------------------------- */
@@ -1596,32 +1596,26 @@ ul.icons-ul > li .icon-li {
   height: 15px; }
 
 /* line 1423, scss/partials/_icons.scss */
-.icon-arrow-breadcrumb {
-  background-position: 0 -146px;
-  width: 22px;
-  height: 12px; }
-
-/* line 1429, scss/partials/_icons.scss */
 .icon-arrow-bottom-ad {
   width: 9px;
   height: 27px;
   background-position: 0 -119px; }
 
-/* line 1435, scss/partials/_icons.scss */
+/* line 1429, scss/partials/_icons.scss */
 .icon-facebook {
   background-position: 0 -24px; }
 
-/* line 1439, scss/partials/_icons.scss */
+/* line 1433, scss/partials/_icons.scss */
 .icon-google {
   background-position: 0 -48px; }
 
-/* line 1443, scss/partials/_icons.scss */
+/* line 1437, scss/partials/_icons.scss */
 .icon-twitter {
   background-position: 0 0; }
 
-/* line 1447, scss/partials/_icons.scss */
+/* line 1441, scss/partials/_icons.scss */
 .icon-desktop {
-  background-position: 0 -158px;
+  background-position: 0 -146px;
   width: 8px;
   height: 7px;
   font-size: 0;
@@ -1638,7 +1632,7 @@ ul.icons-ul > li .icon-li {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  padding: 5px 10px;
+  padding: 4px 10px;
   border: solid 1px; }
   /* line 21, scss/partials/_buttons.scss */
   .btn-rectangule:hover {
@@ -1835,25 +1829,29 @@ table {
 /* line 40, scss/partials/_form.scss */
 .error {
   margin-bottom: 10px;
+  -webkit-transform-origin: 50% 0%;
   -webkit-transform: translate(-50px, 0) scale(0.8333); }
 
-/* line 45, scss/partials/_form.scss */
+/* line 46, scss/partials/_form.scss */
 .form {
   color: #333;
   font-size: 12px; }
-  /* line 48, scss/partials/_form.scss */
+  /* line 49, scss/partials/_form.scss */
   .form input[type="text"], .form input[type="password"], .form input[type="date"] {
     height: 40px;
-    line-height: 40px; }
-  /* line 52, scss/partials/_form.scss */
+    line-height: 30px; }
+  /* line 53, scss/partials/_form.scss */
   .form textarea {
     height: 183px; }
-  /* line 55, scss/partials/_form.scss */
+  /* line 57, scss/partials/_form.scss */
   .form .contact-tab th {
     vertical-align: top;
     width: 18%;
     padding-top: 10px; }
-  /* line 60, scss/partials/_form.scss */
+  /* line 62, scss/partials/_form.scss */
+  .form .contact-tab .input-out-box {
+    position: relative; }
+  /* line 66, scss/partials/_form.scss */
   .form .error {
     padding-left: 10px; }
 
@@ -2267,7 +2265,7 @@ html[xmlns] .slides {
 .wgt-menu {
   float: right;
   font-size: 14px;
-  margin-top: 35px;
+  margin-top: 31px;
   font-family: "montserratregular"; }
   /* line 41, scss/partials/_widgets.scss */
   .wgt-menu > i {
@@ -2354,7 +2352,7 @@ html[xmlns] .slides {
 /* line 126, scss/partials/_widgets.scss */
 .wgt-page-nav {
   padding: 7px 0;
-  margin-bottom: 15px; }
+  margin-bottom: 22px; }
   /* line 129, scss/partials/_widgets.scss */
   .wgt-page-nav a {
     color: #666666;
@@ -2373,16 +2371,19 @@ html[xmlns] .slides {
   .wgt-breadcrumb .r-inner {
     padding: 7px 0 8px; }
   /* line 146, scss/partials/_widgets.scss */
-  .wgt-breadcrumb .icon {
+  .wgt-breadcrumb .icon-sort-down {
     position: absolute;
-    bottom: -12px;
+    bottom: -23px;
     left: 50%;
-    margin-left: -11px; }
-  /* line 152, scss/partials/_widgets.scss */
+    margin-left: -11px;
+    color: #ebebeb;
+    font-size: 36px;
+    width: 22px; }
+  /* line 155, scss/partials/_widgets.scss */
   .wgt-breadcrumb p {
     -webkit-transform-origin: 0% 50%;
     -webkit-transform: scale(0.91667); }
-  /* line 156, scss/partials/_widgets.scss */
+  /* line 159, scss/partials/_widgets.scss */
   .wgt-breadcrumb a, .wgt-breadcrumb span {
     float: left;
     font-size: 11px;
@@ -2390,41 +2391,41 @@ html[xmlns] .slides {
     line-height: 18px;
     color: #5e5e5e;
     display: inline-block; }
-  /* line 164, scss/partials/_widgets.scss */
+  /* line 167, scss/partials/_widgets.scss */
   .wgt-breadcrumb span {
     margin: 0 5px; }
 
-/* line 169, scss/partials/_widgets.scss */
+/* line 172, scss/partials/_widgets.scss */
 .wgt-website-note {
   background-color: #ebebeb;
   padding: 54px 0 36px;
   margin-top: 30px; }
-  /* line 173, scss/partials/_widgets.scss */
+  /* line 176, scss/partials/_widgets.scss */
   .wgt-website-note .note-1 {
     width: 65.957446808511%;
     float: left; }
-    /* line 177, scss/partials/_widgets.scss */
+    /* line 180, scss/partials/_widgets.scss */
     .wgt-website-note .note-1 h6,
     .wgt-website-note .note-1 h6 a {
       font-size: 16px;
       font-family: "montserratbold";
       color: #cb1150;
       line-height: 1; }
-    /* line 183, scss/partials/_widgets.scss */
+    /* line 186, scss/partials/_widgets.scss */
     .wgt-website-note .note-1 h6 {
       padding-bottom: 4px; }
-    /* line 186, scss/partials/_widgets.scss */
+    /* line 189, scss/partials/_widgets.scss */
     .wgt-website-note .note-1 p {
       margin-top: 1.7142857142857em;
       line-height: 24px;
       font-family: "Helvetica";
       font-size: 14px;
       color: #383838; }
-  /* line 194, scss/partials/_widgets.scss */
+  /* line 197, scss/partials/_widgets.scss */
   .wgt-website-note .info {
     float: left;
     margin-top: 55px; }
-    /* line 197, scss/partials/_widgets.scss */
+    /* line 200, scss/partials/_widgets.scss */
     .wgt-website-note .info strong {
       font-family: "montserratbold";
       font-size: 10px;
@@ -2434,17 +2435,17 @@ html[xmlns] .slides {
       vertical-align: middle;
       font-weight: 400;
       color: #787878; }
-    /* line 207, scss/partials/_widgets.scss */
+    /* line 210, scss/partials/_widgets.scss */
     .wgt-website-note .info img {
       vertical-align: middle;
       -webkit-transform: translate(-20px, 0); }
-  /* line 212, scss/partials/_widgets.scss */
+  /* line 215, scss/partials/_widgets.scss */
   .wgt-website-note .note-2 {
     width: 300px;
     height: 265px;
     float: right;
     position: relative; }
-    /* line 217, scss/partials/_widgets.scss */
+    /* line 220, scss/partials/_widgets.scss */
     .wgt-website-note .note-2 img {
       position: absolute;
       left: 0;
@@ -2452,7 +2453,7 @@ html[xmlns] .slides {
       min-width: 100%;
       max-width: 100%;
       z-index: 1; }
-    /* line 225, scss/partials/_widgets.scss */
+    /* line 228, scss/partials/_widgets.scss */
     .wgt-website-note .note-2 .note-txt {
       background-color: rgba(229, 193, 129, 0.9);
       position: absolute;
@@ -2466,18 +2467,18 @@ html[xmlns] .slides {
       line-height: 1.1;
       font-family: "montserratregular";
       padding-top: 12px; }
-      /* line 238, scss/partials/_widgets.scss */
+      /* line 241, scss/partials/_widgets.scss */
       .wgt-website-note .note-2 .note-txt p {
         padding-left: 14px;
         margin: 0 0 1.5em; }
-      /* line 243, scss/partials/_widgets.scss */
+      /* line 246, scss/partials/_widgets.scss */
       .wgt-website-note .note-2 .note-txt .txt-2 span {
         color: black; }
-      /* line 247, scss/partials/_widgets.scss */
+      /* line 250, scss/partials/_widgets.scss */
       .wgt-website-note .note-2 .note-txt .txt-3 {
         font-family: "montserratbold";
         font-size: 22px; }
-      /* line 251, scss/partials/_widgets.scss */
+      /* line 254, scss/partials/_widgets.scss */
       .wgt-website-note .note-2 .note-txt a.btn {
         margin: -9px 0 0 14px;
         display: inline-block;
@@ -2488,13 +2489,13 @@ html[xmlns] .slides {
         padding: 6px 10px;
         line-height: 1;
         border: 1px solid #fff; }
-      /* line 262, scss/partials/_widgets.scss */
+      /* line 265, scss/partials/_widgets.scss */
       .wgt-website-note .note-2 .note-txt .icon {
         position: absolute;
         top: 50%;
         margin-top: -14px;
         right: -9px; }
-  /* line 270, scss/partials/_widgets.scss */
+  /* line 273, scss/partials/_widgets.scss */
   .wgt-website-note .share-this {
     vertical-align: middle;
     font-size: 12px;
@@ -2503,47 +2504,47 @@ html[xmlns] .slides {
     font-family: "montserratbold";
     margin-top: 25px;
     float: left; }
-    /* line 278, scss/partials/_widgets.scss */
+    /* line 281, scss/partials/_widgets.scss */
     .wgt-website-note .share-this .icon {
       height: 24px;
       width: 24px;
       vertical-align: middle;
       margin: 0 3px; }
-    /* line 284, scss/partials/_widgets.scss */
+    /* line 287, scss/partials/_widgets.scss */
     .wgt-website-note .share-this strong {
       display: inline-block;
       vertical-align: middle;
       margin-right: 5px; }
-  /* line 290, scss/partials/_widgets.scss */
+  /* line 293, scss/partials/_widgets.scss */
   .wgt-website-note .pay-link {
     float: right;
     margin-top: 25px; }
-    /* line 293, scss/partials/_widgets.scss */
+    /* line 296, scss/partials/_widgets.scss */
     .wgt-website-note .pay-link a {
       float: left;
       margin-left: 4px; }
 
-/* line 300, scss/partials/_widgets.scss */
+/* line 303, scss/partials/_widgets.scss */
 .wgt-product-list-home {
   padding: 5px 0 50px; }
-  /* line 302, scss/partials/_widgets.scss */
+  /* line 305, scss/partials/_widgets.scss */
   .wgt-product-list-home ul {
     width: 102.1276595744685%;
     margin-left: -2.0833333333333%; }
-    /* line 305, scss/partials/_widgets.scss */
+    /* line 308, scss/partials/_widgets.scss */
     .wgt-product-list-home ul h5, .wgt-product-list-home ul h5 a {
       font-size: 18px;
       font-family: "montserratbold";
       font-weight: 400; }
-    /* line 310, scss/partials/_widgets.scss */
+    /* line 313, scss/partials/_widgets.scss */
     .wgt-product-list-home ul h5 {
       padding: 32px 45px 0 50px;
       text-align: center; }
-    /* line 314, scss/partials/_widgets.scss */
+    /* line 317, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .con {
       padding-left: 50px;
       display: none; }
-    /* line 318, scss/partials/_widgets.scss */
+    /* line 321, scss/partials/_widgets.scss */
     .wgt-product-list-home ul blockquote {
       font-family: "montserratregular";
       line-height: 22px;
@@ -2552,182 +2553,182 @@ html[xmlns] .slides {
       padding: 48px 45px 45px 0;
       height: 88px;
       overflow: hidden; }
-    /* line 327, scss/partials/_widgets.scss */
+    /* line 330, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .price {
       font-size: 18px;
       font-family: "montserratbold"; }
-    /* line 331, scss/partials/_widgets.scss */
+    /* line 334, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .btns {
       padding: 61px 0 0 0;
       font-size: 14px; }
-    /* line 335, scss/partials/_widgets.scss */
+    /* line 338, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .btn-rectangule {
       font-size: 14px; }
-    /* line 338, scss/partials/_widgets.scss */
+    /* line 341, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .btn-1 {
       color: #fff; }
-    /* line 341, scss/partials/_widgets.scss */
+    /* line 344, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .inner {
       position: relative;
       padding: 2px 0;
       height: 376px; }
-    /* line 346, scss/partials/_widgets.scss */
+    /* line 349, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .btn-round {
       position: absolute;
       right: 6px;
       top: 67px; }
-    /* line 351, scss/partials/_widgets.scss */
+    /* line 354, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .img {
       padding-top: 45px; }
-      /* line 353, scss/partials/_widgets.scss */
+      /* line 356, scss/partials/_widgets.scss */
       .wgt-product-list-home ul .img img {
         max-width: 100%;
         text-align: center; }
-    /* line 358, scss/partials/_widgets.scss */
+    /* line 361, scss/partials/_widgets.scss */
     .wgt-product-list-home ul > li {
       width: 31.25%;
       margin: 55px 0 0 2.0833333333333%;
       float: left; }
-      /* line 364, scss/partials/_widgets.scss */
+      /* line 367, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.active .img, .wgt-product-list-home ul > li:hover .img {
         display: none; }
-      /* line 367, scss/partials/_widgets.scss */
+      /* line 370, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.active .con, .wgt-product-list-home ul > li:hover .con {
         display: block; }
-      /* line 370, scss/partials/_widgets.scss */
+      /* line 373, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.active .inner, .wgt-product-list-home ul > li:hover .inner {
         padding: 0;
         border-width: 2px;
         border-style: solid;
         height: 376px;
         padding: 0; }
-      /* line 377, scss/partials/_widgets.scss */
+      /* line 380, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.active .img, .wgt-product-list-home ul > li:hover .img {
         display: none; }
-      /* line 380, scss/partials/_widgets.scss */
+      /* line 383, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.active .btn-round, .wgt-product-list-home ul > li:hover .btn-round {
         display: none; }
-      /* line 385, scss/partials/_widgets.scss */
+      /* line 388, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-1 h5, .wgt-product-list-home ul > li.product-type-1 h5 a, .wgt-product-list-home ul > li.product-type-1 .price {
         color: #cb1150; }
-      /* line 390, scss/partials/_widgets.scss */
+      /* line 393, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-1.active .inner, .wgt-product-list-home ul > li.product-type-1:hover .inner {
         border-color: #cb1150; }
-      /* line 394, scss/partials/_widgets.scss */
+      /* line 397, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-1 .btn-round {
         background-color: #cb1150; }
-      /* line 397, scss/partials/_widgets.scss */
+      /* line 400, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-1 .btn-1 {
         background-color: #cb1150;
         border-color: #cb1150; }
-      /* line 401, scss/partials/_widgets.scss */
+      /* line 404, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-1 .btn-2 {
         border-color: #cb1150;
         color: #cb1150; }
-      /* line 407, scss/partials/_widgets.scss */
+      /* line 410, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-2 h5, .wgt-product-list-home ul > li.product-type-2 h5 a, .wgt-product-list-home ul > li.product-type-2 .price {
         color: #16979d; }
-      /* line 412, scss/partials/_widgets.scss */
+      /* line 415, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-2.active .inner, .wgt-product-list-home ul > li.product-type-2:hover .inner {
         border-color: #16979d; }
-      /* line 416, scss/partials/_widgets.scss */
+      /* line 419, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-2 .btn-round {
         background-color: #16979d; }
-      /* line 419, scss/partials/_widgets.scss */
+      /* line 422, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-2 .btn-1 {
         background-color: #16979d;
         border-color: #16979d; }
-      /* line 423, scss/partials/_widgets.scss */
+      /* line 426, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-2 .btn-2 {
         border-color: #16979d;
         color: #16979d; }
-      /* line 429, scss/partials/_widgets.scss */
+      /* line 432, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-3 h5, .wgt-product-list-home ul > li.product-type-3 h5 a, .wgt-product-list-home ul > li.product-type-3 .price {
         color: #493469; }
-      /* line 434, scss/partials/_widgets.scss */
+      /* line 437, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-3.active .inner, .wgt-product-list-home ul > li.product-type-3:hover .inner {
         border-color: #493469; }
-      /* line 438, scss/partials/_widgets.scss */
+      /* line 441, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-3 .btn-round {
         background-color: #493469; }
-      /* line 441, scss/partials/_widgets.scss */
+      /* line 444, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-3 .btn-1 {
         background-color: #493469;
         border-color: #493469; }
-      /* line 445, scss/partials/_widgets.scss */
+      /* line 448, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-3 .btn-2 {
         border-color: #493469;
         color: #493469; }
-      /* line 451, scss/partials/_widgets.scss */
+      /* line 454, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-4 h5, .wgt-product-list-home ul > li.product-type-4 h5 a, .wgt-product-list-home ul > li.product-type-4 .price {
         color: #e5c181; }
-      /* line 456, scss/partials/_widgets.scss */
+      /* line 459, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-4.active .inner, .wgt-product-list-home ul > li.product-type-4:hover .inner {
         border-color: #e5c181; }
-      /* line 460, scss/partials/_widgets.scss */
+      /* line 463, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-4 .btn-round {
         background-color: #e5c181; }
-      /* line 463, scss/partials/_widgets.scss */
+      /* line 466, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-4 .btn-1 {
         background-color: #e5c181;
         border-color: #e5c181; }
-      /* line 467, scss/partials/_widgets.scss */
+      /* line 470, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-4 .btn-2 {
         border-color: #e5c181;
         color: #e5c181; }
-      /* line 473, scss/partials/_widgets.scss */
+      /* line 476, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-5 h5, .wgt-product-list-home ul > li.product-type-5 h5 a, .wgt-product-list-home ul > li.product-type-5 .price {
         color: #c22426; }
-      /* line 478, scss/partials/_widgets.scss */
+      /* line 481, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-5.active .inner, .wgt-product-list-home ul > li.product-type-5:hover .inner {
         border-color: #c22426; }
-      /* line 482, scss/partials/_widgets.scss */
+      /* line 485, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-5 .btn-round {
         background-color: #c22426; }
-      /* line 485, scss/partials/_widgets.scss */
+      /* line 488, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-5 .btn-1 {
         background-color: #c22426;
         border-color: #c22426; }
-      /* line 489, scss/partials/_widgets.scss */
+      /* line 492, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-5 .btn-2 {
         border-color: #c22426;
         color: #c22426; }
-      /* line 495, scss/partials/_widgets.scss */
+      /* line 498, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-6 h5, .wgt-product-list-home ul > li.product-type-6 h5 a, .wgt-product-list-home ul > li.product-type-6 .price {
         color: #2a639c; }
-      /* line 500, scss/partials/_widgets.scss */
+      /* line 503, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-6.active .inner, .wgt-product-list-home ul > li.product-type-6:hover .inner {
         border-color: #2a639c; }
-      /* line 504, scss/partials/_widgets.scss */
+      /* line 507, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-6 .btn-round {
         background-color: #2a639c; }
-      /* line 507, scss/partials/_widgets.scss */
+      /* line 510, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-6 .btn-1 {
         background-color: #2a639c;
         border-color: #2a639c; }
-      /* line 511, scss/partials/_widgets.scss */
+      /* line 514, scss/partials/_widgets.scss */
       .wgt-product-list-home ul > li.product-type-6 .btn-2 {
         border-color: #2a639c;
         color: #2a639c; }
 
-/* line 520, scss/partials/_widgets.scss */
+/* line 523, scss/partials/_widgets.scss */
 .wgt-concept {
   background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
   text-align: center;
   vertical-align: middle;
   color: #383838; }
-  /* line 525, scss/partials/_widgets.scss */
+  /* line 528, scss/partials/_widgets.scss */
   .wgt-concept h2 {
     padding: 40px 0 33px;
     font-family: "montserratbold";
     letter-spacing: 4px;
     font-size: 18px;
     text-transform: uppercase; }
-  /* line 532, scss/partials/_widgets.scss */
+  /* line 535, scss/partials/_widgets.scss */
   .wgt-concept .item {
     display: inline-block;
     vertical-align: middle; }
-  /* line 536, scss/partials/_widgets.scss */
+  /* line 539, scss/partials/_widgets.scss */
   .wgt-concept .line {
     display: block;
     width: 140px;
@@ -2735,22 +2736,22 @@ html[xmlns] .slides {
     line-height: 0;
     border-bottom: 1px solid #000;
     margin: 0 auto; }
-  /* line 544, scss/partials/_widgets.scss */
+  /* line 547, scss/partials/_widgets.scss */
   .wgt-concept .formula {
     padding-top: 34px; }
-  /* line 547, scss/partials/_widgets.scss */
+  /* line 550, scss/partials/_widgets.scss */
   .wgt-concept .symbol {
     font-family: "montserratregular";
     font-size: 50px;
     display: inline-block;
     margin: 0 55px; }
-  /* line 553, scss/partials/_widgets.scss */
+  /* line 556, scss/partials/_widgets.scss */
   .wgt-concept h6 {
     font-size: 18px;
     font-family: "montserratbold";
     font-weight: 400;
     padding-top: 30px; }
-  /* line 559, scss/partials/_widgets.scss */
+  /* line 562, scss/partials/_widgets.scss */
   .wgt-concept .note {
     font-family: "Helvetica";
     line-height: 24px;
@@ -2758,29 +2759,29 @@ html[xmlns] .slides {
     padding: 33px 0 40px;
     background: url(images/bg-steps-bm.png) 50% bottom no-repeat; }
 
-/* line 568, scss/partials/_widgets.scss */
+/* line 571, scss/partials/_widgets.scss */
 .wgt-slider {
   height: 390px;
   position: relative; }
-  /* line 571, scss/partials/_widgets.scss */
+  /* line 574, scss/partials/_widgets.scss */
   .wgt-slider .slides {
     overflow: hidden; }
-    /* line 573, scss/partials/_widgets.scss */
+    /* line 576, scss/partials/_widgets.scss */
     .wgt-slider .slides li {
       position: relative; }
-      /* line 575, scss/partials/_widgets.scss */
+      /* line 578, scss/partials/_widgets.scss */
       .wgt-slider .slides li h5 {
         padding-top: 55px;
         font-family: "montserratbold";
         font-size: 22px; }
-        /* line 579, scss/partials/_widgets.scss */
+        /* line 582, scss/partials/_widgets.scss */
         .wgt-slider .slides li h5 a {
           color: #383838;
           line-height: 1.3; }
-          /* line 582, scss/partials/_widgets.scss */
+          /* line 585, scss/partials/_widgets.scss */
           .wgt-slider .slides li h5 a span {
             color: #d13066; }
-    /* line 588, scss/partials/_widgets.scss */
+    /* line 591, scss/partials/_widgets.scss */
     .wgt-slider .slides blockquote {
       width: 300px;
       font-size: 14px;
@@ -2788,18 +2789,18 @@ html[xmlns] .slides {
       color: #383838;
       padding: 35px 0;
       font-family: "Helvetica"; }
-    /* line 596, scss/partials/_widgets.scss */
+    /* line 599, scss/partials/_widgets.scss */
     .wgt-slider .slides .img {
       position: absolute;
       top: 0;
       left: 300px;
       width: 92.553191489362%; }
 
-/* line 605, scss/partials/_widgets.scss */
+/* line 608, scss/partials/_widgets.scss */
 .wgt-locations {
   background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
   padding: 42px 0 0; }
-  /* line 608, scss/partials/_widgets.scss */
+  /* line 611, scss/partials/_widgets.scss */
   .wgt-locations .searchbar {
     padding: 40px 0 48px; }
     /* line 3, scss/partials/_mixin.scss */
@@ -2811,25 +2812,25 @@ html[xmlns] .slides {
     /* line 7, scss/partials/_mixin.scss */
     .wgt-locations .searchbar:after {
       clear: both; }
-    /* line 611, scss/partials/_widgets.scss */
+    /* line 614, scss/partials/_widgets.scss */
     .wgt-locations .searchbar input[type="text"] {
       width: 340px;
       vertical-align: middle;
       margin: 0; }
-    /* line 616, scss/partials/_widgets.scss */
+    /* line 619, scss/partials/_widgets.scss */
     .wgt-locations .searchbar input[type="text"], .wgt-locations .searchbar select, .wgt-locations .searchbar .btn-rectangule {
       padding-top: 11px;
       padding-bottom: 11px; }
-    /* line 620, scss/partials/_widgets.scss */
+    /* line 623, scss/partials/_widgets.scss */
     .wgt-locations .searchbar .btn-rectangule {
       float: right;
       font-size: 14px; }
-    /* line 624, scss/partials/_widgets.scss */
+    /* line 627, scss/partials/_widgets.scss */
     .wgt-locations .searchbar select {
       margin: 0 10px 0 0;
       width: 250px;
       vertical-align: middle; }
-  /* line 630, scss/partials/_widgets.scss */
+  /* line 633, scss/partials/_widgets.scss */
   .wgt-locations h2 {
     text-align: center;
     color: #383838;
@@ -2846,15 +2847,15 @@ html[xmlns] .slides {
   /* line 7, scss/partials/_mixin.scss */
   .wgt-locations .location-list ul:after {
     clear: both; }
-  /* line 642, scss/partials/_widgets.scss */
+  /* line 645, scss/partials/_widgets.scss */
   .wgt-locations .location-list li {
     float: left;
     width: 50%;
     margin-bottom: 20px; }
-  /* line 647, scss/partials/_widgets.scss */
+  /* line 650, scss/partials/_widgets.scss */
   .wgt-locations .location-list .inner {
     padding-right: 5px; }
-  /* line 650, scss/partials/_widgets.scss */
+  /* line 653, scss/partials/_widgets.scss */
   .wgt-locations .location-list .img {
     width: 139px;
     height: 139px;
@@ -2862,34 +2863,34 @@ html[xmlns] .slides {
     float: left;
     margin-right: 20px;
     background-color: #d7d7d7; }
-    /* line 656, scss/partials/_widgets.scss */
+    /* line 659, scss/partials/_widgets.scss */
     .wgt-locations .location-list .img img {
       max-width: 100%;
       min-width: 100%; }
-  /* line 662, scss/partials/_widgets.scss */
+  /* line 665, scss/partials/_widgets.scss */
   .wgt-locations .location-list .con {
     overflow: hidden;
     font-size: 14px;
     color: #383838;
     line-height: 18px; }
-  /* line 668, scss/partials/_widgets.scss */
+  /* line 671, scss/partials/_widgets.scss */
   .wgt-locations .location-list blockquote {
     height: 72px;
     overflow: hidden; }
-  /* line 672, scss/partials/_widgets.scss */
+  /* line 675, scss/partials/_widgets.scss */
   .wgt-locations .location-list .btns {
     display: none;
     padding: 15px 0 20px; }
-  /* line 676, scss/partials/_widgets.scss */
+  /* line 679, scss/partials/_widgets.scss */
   .wgt-locations .location-list p.place {
     margin-bottom: 18px; }
-  /* line 680, scss/partials/_widgets.scss */
+  /* line 683, scss/partials/_widgets.scss */
   .wgt-locations .location-list h5,
   .wgt-locations .location-list h5 a {
     color: #c22426;
     font-size: 18px;
     font-family: "montserratbold"; }
-  /* line 686, scss/partials/_widgets.scss */
+  /* line 689, scss/partials/_widgets.scss */
   .wgt-locations .list-opts {
     font-family: "montserratbold";
     font-size: 14px;
@@ -2903,13 +2904,13 @@ html[xmlns] .slides {
     /* line 7, scss/partials/_mixin.scss */
     .wgt-locations .list-opts:after {
       clear: both; }
-    /* line 691, scss/partials/_widgets.scss */
+    /* line 694, scss/partials/_widgets.scss */
     .wgt-locations .list-opts .list-info {
       float: right; }
-    /* line 694, scss/partials/_widgets.scss */
+    /* line 697, scss/partials/_widgets.scss */
     .wgt-locations .list-opts strong {
       margin-right: 10px; }
-  /* line 698, scss/partials/_widgets.scss */
+  /* line 701, scss/partials/_widgets.scss */
   .wgt-locations .map {
     position: relative;
     width: 100%;
@@ -2917,11 +2918,11 @@ html[xmlns] .slides {
     overflow: hidden;
     font-size: 0;
     line-height: 0; }
-    /* line 705, scss/partials/_widgets.scss */
+    /* line 708, scss/partials/_widgets.scss */
     .wgt-locations .map img {
       min-width: 100%;
       max-width: 100%; }
-    /* line 709, scss/partials/_widgets.scss */
+    /* line 712, scss/partials/_widgets.scss */
     .wgt-locations .map .shadow {
       display: block;
       position: absolute;
@@ -2931,17 +2932,17 @@ html[xmlns] .slides {
       background: url(images/bg-map-bm.png) 50% bottom no-repeat;
       height: 20px; }
 
-/* line 721, scss/partials/_widgets.scss */
+/* line 724, scss/partials/_widgets.scss */
 .wgt-to-desktop {
   display: none;
   background-color: #fff;
   text-align: center;
   padding: 5px 0; }
-  /* line 726, scss/partials/_widgets.scss */
+  /* line 729, scss/partials/_widgets.scss */
   .wgt-to-desktop .icon {
     margin-right: 5px;
     vertical-align: middle; }
-  /* line 730, scss/partials/_widgets.scss */
+  /* line 733, scss/partials/_widgets.scss */
   .wgt-to-desktop a {
     font-size: 10px;
     -webkit-transform-origin: 0% 50%;
@@ -3379,27 +3380,47 @@ html[xmlns] .slides {
 
 /* line 15, scss/partials/_page.scss */
 .page-3 .header, .page-3 .footer {
-  background-color: #008b92; }
+  background-color: #16979d; }
 /* line 18, scss/partials/_page.scss */
 .page-3 .widget-box {
-  background-color: #008b91; }
+  background-color: #16979d; }
   /* line 21, scss/partials/_page.scss */
   .page-3 .widget-box .search-block .search-btn {
     background-color: rgba(0, 139, 146, 0.5);
-    color: #008b91; }
+    color: #16979d; }
 /* line 28, scss/partials/_page.scss */
 .page-3 .wgt-side-contact h3, .page-3 .wgt-side-contact a {
-  color: #008b91; }
+  color: #16979d; }
 /* line 32, scss/partials/_page.scss */
 .page-3 .wgt-website-note .note-1 h6, .page-3 .wgt-website-note .note-1 h6 a {
-  color: #008b91; }
+  color: #16979d; }
 /* line 35, scss/partials/_page.scss */
 .page-3 .page-title {
-  color: #008b91; }
+  color: #16979d; }
 
 /* line 42, scss/partials/_page.scss */
 .page-4 .header, .page-4 .footer {
   background-color: #c22426; }
+
+/* line 49, scss/partials/_page.scss */
+.page-5 .header, .page-5 .footer {
+  background-color: #008b92; }
+/* line 52, scss/partials/_page.scss */
+.page-5 .widget-box {
+  background-color: #008b92; }
+  /* line 55, scss/partials/_page.scss */
+  .page-5 .widget-box .search-block .search-btn {
+    background-color: rgba(0, 139, 146, 0.5);
+    color: #008b92; }
+/* line 62, scss/partials/_page.scss */
+.page-5 .wgt-side-contact h3, .page-5 .wgt-side-contact a {
+  color: #008b92; }
+/* line 66, scss/partials/_page.scss */
+.page-5 .wgt-website-note .note-1 h6, .page-5 .wgt-website-note .note-1 h6 a {
+  color: #008b92; }
+/* line 69, scss/partials/_page.scss */
+.page-5 .page-title {
+  color: #008b92; }
 
 /* mobile */
 @media screen and (max-width: 960px) {
@@ -3457,29 +3478,25 @@ html[xmlns] .slides {
     color: #fff;
     margin-bottom: 20px; }
 
-  /* line 53, scss/partials/_responsive.scss */
-  .error {
-    -webkit-transform: translate(-20px, 0) scale(0.8333); }
-
-  /* wgt */
-  /* line 57, scss/partials/_responsive.scss */
+  /* wgt setting */
+  /* line 55, scss/partials/_responsive.scss */
   .wgt-logo {
     float: right; }
-    /* line 59, scss/partials/_responsive.scss */
+    /* line 57, scss/partials/_responsive.scss */
     .wgt-logo a {
       width: 63px;
       height: 35px; }
 
-  /* line 64, scss/partials/_responsive.scss */
+  /* line 62, scss/partials/_responsive.scss */
   .wgt-menu {
     float: left;
     margin-top: 17px; }
-    /* line 67, scss/partials/_responsive.scss */
+    /* line 65, scss/partials/_responsive.scss */
     .wgt-menu > i {
       display: inline-block;
       color: #fff;
       font-size: 16px; }
-    /* line 72, scss/partials/_responsive.scss */
+    /* line 70, scss/partials/_responsive.scss */
     .wgt-menu ul {
       display: none;
       top: 60px;
@@ -3490,131 +3507,130 @@ html[xmlns] .slides {
       background-color: #fff;
       border-top: 0;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
-      /* line 82, scss/partials/_responsive.scss */
+      /* line 80, scss/partials/_responsive.scss */
       .wgt-menu ul li {
         margin: 0;
         padding: 0;
         float: none;
         text-align: center; }
-        /* line 87, scss/partials/_responsive.scss */
+        /* line 85, scss/partials/_responsive.scss */
         .wgt-menu ul li a {
           color: #383838;
           line-height: 34px;
           padding: 0; }
-          /* line 91, scss/partials/_responsive.scss */
+          /* line 89, scss/partials/_responsive.scss */
           .wgt-menu ul li a:hover {
             border: 0; }
-    /* line 97, scss/partials/_responsive.scss */
+    /* line 95, scss/partials/_responsive.scss */
     .wgt-menu ul.active {
       display: block; }
 
-  /* line 101, scss/partials/_responsive.scss */
+  /* line 99, scss/partials/_responsive.scss */
   .wgt-slider {
     height: auto;
     padding-bottom: 50px; }
-    /* line 105, scss/partials/_responsive.scss */
+    /* line 103, scss/partials/_responsive.scss */
     .wgt-slider .slides .img {
       position: static;
       width: 100%; }
-    /* line 110, scss/partials/_responsive.scss */
+    /* line 108, scss/partials/_responsive.scss */
     .wgt-slider .slides li h5 {
       padding-top: 0; }
-    /* line 114, scss/partials/_responsive.scss */
+    /* line 112, scss/partials/_responsive.scss */
     .wgt-slider .slides blockquote {
       width: auto;
       padding: 23px 0; }
-    /* line 119, scss/partials/_responsive.scss */
+    /* line 117, scss/partials/_responsive.scss */
     .wgt-slider .flex-control-paging li a {
       width: 8px;
       height: 8px;
       margin: 2px; }
-    /* line 124, scss/partials/_responsive.scss */
+    /* line 122, scss/partials/_responsive.scss */
     .wgt-slider .flex-control-nav {
       bottom: 0; }
-    /* line 127, scss/partials/_responsive.scss */
+    /* line 125, scss/partials/_responsive.scss */
     .wgt-slider .btns {
       text-align: center; }
 
-  /* line 133, scss/partials/_responsive.scss */
+  /* line 131, scss/partials/_responsive.scss */
   .wgt-concept .item,
   .wgt-concept .symbol {
     display: block;
     width: auto; }
-  /* line 137, scss/partials/_responsive.scss */
+  /* line 135, scss/partials/_responsive.scss */
   .wgt-concept .r-inner {
     margin: 0; }
 
-  /* line 141, scss/partials/_responsive.scss */
+  /* line 139, scss/partials/_responsive.scss */
   .wgt-product-list-home {
     display: none; }
 
-  /* line 144, scss/partials/_responsive.scss */
+  /* line 142, scss/partials/_responsive.scss */
   .wgt-gift-card-search {
     text-align: center; }
-    /* line 146, scss/partials/_responsive.scss */
+    /* line 144, scss/partials/_responsive.scss */
     .wgt-gift-card-search .control-label {
       float: none;
       display: block;
       line-height: 1.3; }
-    /* line 151, scss/partials/_responsive.scss */
+    /* line 149, scss/partials/_responsive.scss */
     .wgt-gift-card-search .control-group {
       float: none; }
-      /* line 153, scss/partials/_responsive.scss */
+      /* line 151, scss/partials/_responsive.scss */
       .wgt-gift-card-search .control-group .txt {
         margin: 8px 0 16px;
         width: 100%; }
-      /* line 157, scss/partials/_responsive.scss */
+      /* line 155, scss/partials/_responsive.scss */
       .wgt-gift-card-search .control-group .btn {
         float: none; }
 
-  /* line 162, scss/partials/_responsive.scss */
+  /* line 160, scss/partials/_responsive.scss */
   .wgt-website-note {
     display: none;
     margin-top: 0; }
-    /* line 165, scss/partials/_responsive.scss */
+    /* line 163, scss/partials/_responsive.scss */
     .wgt-website-note .note-1 {
       float: none;
       width: auto; }
-    /* line 169, scss/partials/_responsive.scss */
+    /* line 167, scss/partials/_responsive.scss */
     .wgt-website-note .note-2 {
       float: none;
       margin: 32px auto 0; }
-    /* line 174, scss/partials/_responsive.scss */
+    /* line 172, scss/partials/_responsive.scss */
     .wgt-website-note .share-this strong {
       display: none; }
 
-  /* line 180, scss/partials/_responsive.scss */
-  .home .wgt-website-note {
-    display: block; }
-
-  /* line 184, scss/partials/_responsive.scss */
+  /* line 177, scss/partials/_responsive.scss */
   .wgt-footer-nav {
     display: none; }
 
-  /* line 187, scss/partials/_responsive.scss */
+  /* line 180, scss/partials/_responsive.scss */
   .wgt-copyright {
     float: none;
     text-align: center; }
 
-  /* line 191, scss/partials/_responsive.scss */
+  /* line 184, scss/partials/_responsive.scss */
   .wgt-to-desktop {
     display: block; }
 
-  /* line 194, scss/partials/_responsive.scss */
+  /* line 187, scss/partials/_responsive.scss */
   .wgt-breadcrumb {
     display: none; }
 
-  /* line 197, scss/partials/_responsive.scss */
+  /* line 190, scss/partials/_responsive.scss */
   .wgt-page-nav {
     display: none; }
 
-  /* line 200, scss/partials/_responsive.scss */
+  /* line 193, scss/partials/_responsive.scss */
   .wgt-product-list {
     padding-top: 14px; }
-    /* line 202, scss/partials/_responsive.scss */
+    /* line 195, scss/partials/_responsive.scss */
     .wgt-product-list li {
+      background-size: 130%;
+      margin-bottom: 17px;
+      padding-bottom: 27px;
       background-position: 50% bottom; }
-      /* line 204, scss/partials/_responsive.scss */
+      /* line 200, scss/partials/_responsive.scss */
       .wgt-product-list li .images {
         float: none;
         text-align: center;
@@ -3622,169 +3638,171 @@ html[xmlns] .slides {
         margin: 0;
         font-size: 0;
         line-height: 0; }
-        /* line 211, scss/partials/_responsive.scss */
+        /* line 207, scss/partials/_responsive.scss */
         .wgt-product-list li .images img {
+          display: inline-block;
           max-width: 100%;
           border: solid 1px #e1e1e1; }
-      /* line 216, scss/partials/_responsive.scss */
+      /* line 213, scss/partials/_responsive.scss */
       .wgt-product-list li .list-cont {
         margin-right: 0;
-        overflow: visible; }
-        /* line 219, scss/partials/_responsive.scss */
+        overflow: visible;
+        margin-top: 10px; }
+        /* line 217, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .btn1 {
           float: left; }
-        /* line 222, scss/partials/_responsive.scss */
+        /* line 220, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .btn2 {
           float: right;
           margin-right: 0; }
-        /* line 227, scss/partials/_responsive.scss */
-        .wgt-product-list li .list-cont .name .btn-round {
-          top: -15px;
-          right: 20px; }
+        /* line 224, scss/partials/_responsive.scss */
+        .wgt-product-list li .list-cont .name {
+          min-height: 0;
+          margin-bottom: 10px; }
+          /* line 227, scss/partials/_responsive.scss */
+          .wgt-product-list li .list-cont .name .btn-round {
+            top: -25px;
+            right: 20px; }
+        /* line 232, scss/partials/_responsive.scss */
+        .wgt-product-list li .list-cont .product-descript {
+          min-height: 0;
+          margin-bottom: 15px; }
 
-  /* line 235, scss/partials/_responsive.scss */
+  /* line 240, scss/partials/_responsive.scss */
   .wgt-faq {
     margin-bottom: 20px; }
 
-  /* line 238, scss/partials/_responsive.scss */
+  /* line 243, scss/partials/_responsive.scss */
   .wgt-giftcard {
     margin-bottom: 28px; }
-    /* line 240, scss/partials/_responsive.scss */
+    /* line 245, scss/partials/_responsive.scss */
     .wgt-giftcard .btn-rect-stl1 {
       display: block; }
-    /* line 243, scss/partials/_responsive.scss */
+    /* line 248, scss/partials/_responsive.scss */
     .wgt-giftcard .btn-rect-stl1-1 {
       display: inline-block; }
-    /* line 246, scss/partials/_responsive.scss */
+    /* line 251, scss/partials/_responsive.scss */
     .wgt-giftcard .tip {
       margin-left: -10px;
       margin-right: -10px; }
-      /* line 249, scss/partials/_responsive.scss */
+      /* line 254, scss/partials/_responsive.scss */
       .wgt-giftcard .tip span {
         display: block;
         margin-left: 0; }
-    /* line 255, scss/partials/_responsive.scss */
+    /* line 260, scss/partials/_responsive.scss */
     .wgt-giftcard .tip-content .lft-block {
       width: auto;
       padding-left: 0;
       padding-top: 15px;
       margin-right: 0;
       clear: left; }
-    /* line 262, scss/partials/_responsive.scss */
+    /* line 267, scss/partials/_responsive.scss */
     .wgt-giftcard .tip-content .rgt-bolck {
       text-align: center;
       margin-bottom: 15px; }
-    /* line 267, scss/partials/_responsive.scss */
+    /* line 272, scss/partials/_responsive.scss */
     .wgt-giftcard table input[type="text"] {
       width: 100%; }
 
-  /* line 273, scss/partials/_responsive.scss */
+  /* line 278, scss/partials/_responsive.scss */
   .wgt-locations .searchbar select {
     display: block;
     width: 100%;
     margin-bottom: 5px; }
-  /* line 278, scss/partials/_responsive.scss */
+  /* line 283, scss/partials/_responsive.scss */
   .wgt-locations .searchbar input[type="text"] {
     width: 100%;
     margin-bottom: 5px; }
-  /* line 284, scss/partials/_responsive.scss */
+  /* line 289, scss/partials/_responsive.scss */
   .wgt-locations .location-list li {
     float: none;
     width: auto;
     border-bottom: 1px solid #c3c3c3; }
-    /* line 288, scss/partials/_responsive.scss */
+    /* line 293, scss/partials/_responsive.scss */
     .wgt-locations .location-list li .img {
       display: none; }
-    /* line 291, scss/partials/_responsive.scss */
+    /* line 296, scss/partials/_responsive.scss */
     .wgt-locations .location-list li:last-child {
       border-bottom: 0;
       margin-bottom: 0; }
-  /* line 296, scss/partials/_responsive.scss */
+  /* line 301, scss/partials/_responsive.scss */
   .wgt-locations .location-list blockquote {
     height: auto; }
-  /* line 299, scss/partials/_responsive.scss */
+  /* line 304, scss/partials/_responsive.scss */
   .wgt-locations .location-list .btns {
     display: block; }
-    /* line 301, scss/partials/_responsive.scss */
+    /* line 306, scss/partials/_responsive.scss */
     .wgt-locations .location-list .btns .btn-rect-stl5-1 {
       border-width: 2px; }
-  /* line 306, scss/partials/_responsive.scss */
+  /* line 311, scss/partials/_responsive.scss */
   .wgt-locations .list-opts {
     padding-top: 0; }
-    /* line 308, scss/partials/_responsive.scss */
+    /* line 313, scss/partials/_responsive.scss */
     .wgt-locations .list-opts .btn-rect-stl5 {
       display: none; }
-    /* line 311, scss/partials/_responsive.scss */
+    /* line 316, scss/partials/_responsive.scss */
     .wgt-locations .list-opts .btn-rect-stl5-1 {
       background-color: #c22426;
       color: #fff;
       display: block;
       width: auto; }
-    /* line 317, scss/partials/_responsive.scss */
+    /* line 322, scss/partials/_responsive.scss */
     .wgt-locations .list-opts .list-info {
       float: none; }
-      /* line 319, scss/partials/_responsive.scss */
+      /* line 324, scss/partials/_responsive.scss */
       .wgt-locations .list-opts .list-info strong {
         display: none; }
 
-  /* line 325, scss/partials/_responsive.scss */
-  .wgt-location-detail {
-    background: none;
-    padding: 10px 0 20px; }
-    /* line 328, scss/partials/_responsive.scss */
-    .wgt-location-detail .lft-block {
-      clear: left;
-      width: 100%;
-      text-align: center; }
-    /* line 333, scss/partials/_responsive.scss */
-    .wgt-location-detail .flex-control-thumbs {
-      position: static;
-      margin-top: 20px; }
-    /* line 337, scss/partials/_responsive.scss */
-    .wgt-location-detail .flex-control-thumbs li {
-      margin-bottom: 15px;
-      margin-right: 20px;
-      clear: none; }
-    /* line 342, scss/partials/_responsive.scss */
-    .wgt-location-detail .btn-rect-stl8 {
-      width: auto;
-      margin-top: 0;
-      margin-bottom: 20px; }
-    /* line 348, scss/partials/_responsive.scss */
-    .wgt-location-detail .content {
-      padding-left: 0; }
-      /* line 350, scss/partials/_responsive.scss */
-      .wgt-location-detail .content .btn-rectangule {
-        margin-right: 0; }
-      /* line 353, scss/partials/_responsive.scss */
-      .wgt-location-detail .content .btn2 {
-        display: none; }
-      /* line 356, scss/partials/_responsive.scss */
-      .wgt-location-detail .content .btn3 {
-        float: right; }
-
-  /* line 361, scss/partials/_responsive.scss */
-  .main-block1 {
-    display: none; }
-
-  /* line 364, scss/partials/_responsive.scss */
+  /* line 330, scss/partials/_responsive.scss */
   .wgt-locatie-reserveren {
-    background: #f5f5f3;
-    padding: 10px 0 20px;
-    position: static;
-    top: 0; }
-    /* line 369, scss/partials/_responsive.scss */
+    background-color: #f6f5f4; }
+    /* line 332, scss/partials/_responsive.scss */
     .wgt-locatie-reserveren .form {
-      width: 100%; }
-      /* line 371, scss/partials/_responsive.scss */
+      width: auto; }
+      /* line 334, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form th {
-        padding: 5px 0; }
-      /* line 374, scss/partials/_responsive.scss */
+        padding-top: 0; }
+      /* line 337, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form .th2 {
         padding-left: 0; }
-      /* line 377, scss/partials/_responsive.scss */
-      .wgt-locatie-reserveren .form select, .wgt-locatie-reserveren .form input[type="text"], .wgt-locatie-reserveren .form input[type="password"], .wgt-locatie-reserveren .form textarea {
-        margin-bottom: 0; }
-      /* line 380, scss/partials/_responsive.scss */
-      .wgt-locatie-reserveren .form .text-right {
-        padding-top: 25px; } }
+      /* line 340, scss/partials/_responsive.scss */
+      .wgt-locatie-reserveren .form input[type="text"], .wgt-locatie-reserveren .form input[type="password"], .wgt-locatie-reserveren .form input[type="date"] {
+        margin-bottom: 2px; }
+      /* line 343, scss/partials/_responsive.scss */
+      .wgt-locatie-reserveren .form .btn-rectangule {
+        margin-top: 21px; }
+
+  /* line 348, scss/partials/_responsive.scss */
+  .wgt-locatie-reserveren2 {
+    margin-top: 30px;
+    min-height: 420px; }
+    /* line 351, scss/partials/_responsive.scss */
+    .wgt-locatie-reserveren2 .page-title {
+      font-size: 18px;
+      line-height: 1.1; }
+
+  /* line 356, scss/partials/_responsive.scss */
+  .wgt-locations {
+    background: none;
+    background-color: #f6f5f4; }
+
+  /* line 360, scss/partials/_responsive.scss */
+  .wgt-map {
+    width: auto;
+    overflow: visible; }
+
+  /* page wgt setting */
+  /* line 366, scss/partials/_responsive.scss */
+  .home .wgt-website-note {
+    display: block; }
+
+  /* line 371, scss/partials/_responsive.scss */
+  .locatie-detail .wgt-product-list {
+    display: none; }
+
+  /* line 376, scss/partials/_responsive.scss */
+  .verkooppunten .page-title-box.page-map-title {
+    max-width: 100%; }
+  /* line 379, scss/partials/_responsive.scss */
+  .verkooppunten .pagination {
+    display: none; } }
