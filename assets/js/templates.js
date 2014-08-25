@@ -27,9 +27,26 @@ $(function() {
 
     /* media queries */
     mq();
-    $(".wgt-menu>i").click(function() {       
+    $(".wgt-menu>i").click(function() {
         $(".wgt-menu>ul").toggleClass("active");
     });
+
+    /* select */
+    $("select.flexselect").click(function() {
+        if($(this).hasClass('cur')){
+            $(".select-mask").hide();
+            $(this).removeClass("cur");
+        }else{
+            $(".select-mask").show();
+            $(this).addClass("cur");
+        }
+    });
+    $(document).click(function(event) {
+        if(!$(event.target).is("select")){
+            $(".select-mask").hide();
+        }
+    });
+
 });
 
 

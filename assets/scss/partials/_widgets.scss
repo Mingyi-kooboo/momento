@@ -608,6 +608,19 @@
 .wgt-locations {
     background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
     padding: 42px 0 0;
+    position: relative;
+    .select-mask{
+        position: absolute;top:0;
+        right:0;
+        left:0;
+        bottom:0;
+        background-color: rgba(0,0,0,0.3);
+        display: none;
+    }
+    select.cur{
+        position: relative;
+        z-index:2;
+    }
     .searchbar {
         padding: 40px 0 48px;
         @include clearfix;
