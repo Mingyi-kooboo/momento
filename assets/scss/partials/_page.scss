@@ -1,72 +1,373 @@
 ﻿/****/
-.page-1{
-	.header,.footer{
-		background-color: #cb1150;
-	}	
+.page-1 {
+    .header,.footer {
+        background-color: #cb1150;
+    }
 }
 
-.page-2{
-    .header,.footer{
+.page-2 {
+    .header,.footer {
         background-color: #cb1e5a;
     }
 }
 
-.page-3{
-    .header,.footer{
+.page-3 {
+    .header,.footer {
         background-color: #16979d;
     }
-    .widget-box{
+    .widget-box {
         background-color: #16979d;
-        .search-block{
-            .search-btn{
+        .search-block {
+            .search-btn {
                 background-color: rgba(0, 139, 146, 0.5);
                 color: #16979d;
             }
-        }       
+        }
     }
-    .wgt-side-contact{
-        h3, a{
+    .wgt-side-contact {
+        h3, a {
             color: #16979d;
         }
     }
-    .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a{
-        color:#16979d;
+    .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a {
+        color: #16979d;
     }
-    .page-title{
-        color:#16979d;
-    }      
+    .page-title {
+        color: #16979d;
+    }
 }
 
-
-.page-4{
-    .header,.footer{
+.page-4 {
+    .header,.footer {
         background-color: #c22426;
     }
 }
 
-
-.page-5{
-    .header,.footer{
+.page-5 {
+    .header,.footer {
         background-color: #008b92;
     }
-    .widget-box{
+    .widget-box {
         background-color: #008b92;
-        .search-block{
-            .search-btn{
+        .search-block {
+            .search-btn {
                 background-color: rgba(0, 139, 146, 0.5);
                 color: #008b92;
             }
-        }       
+        }
     }
-    .wgt-side-contact{
-        h3, a{
+    .wgt-side-contact {
+        h3, a {
             color: #008b92;
         }
     }
-    .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a{
-        color:#008b92;
+    .wgt-website-note .note-1 h6, .wgt-website-note .note-1 h6 a {
+        color: #008b92;
     }
-    .page-title{
-        color:#008b92;
-    }      
+    .page-title {
+        color: #008b92;
+    }
+}
+
+/* by color name  */
+.page-pink {
+    .header,.footer {
+        background-color: #cb1150;
+    }
+    .widget-box {
+        background-color: #cb1150;
+        .search-block {
+            .search-btn {
+                background-color: rgba(203, 17, 80, 0.5);
+                color: #cb1150;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #cb1150;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #cb1150;
+        border-color: #cb1150;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #cb1150;
+        color: #cb1150;
+        background: none;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #cb1150;
+            border-color: #cb1150;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #cb1150;
+            color: #cb1150;
+        }
+    }
+}
+
+.page-green {
+    .header,.footer {
+        background-color: #16979d;
+    }
+    .widget-box {
+        background-color: #16979d;
+        .search-block {
+            .search-btn {
+                background-color: rgba(22, 151, 157, 0.5);
+                color: #16979d;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #16979d;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #16979d;
+        border-color: #16979d;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #16979d;
+        color: #16979d;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #16979d;
+            border-color: #16979d;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #16979d;
+            color: #16979d;
+        }
+    }
+}
+
+.page-purple {
+    .header,.footer {
+        background-color: #493469;
+    }
+    .widget-box {
+        background-color: #493469;
+        .search-block {
+            .search-btn {
+                background-color: rgba(73, 52, 105, 0.5);
+                color: #493469;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #493469;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #493469;
+        border-color: #493469;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #493469;
+        color: #493469;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #493469;
+            border-color: #493469;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #493469;
+            color: #493469;
+        }
+    }
+}
+
+.page-orange {
+    .header,.footer {
+        background-color: #e5c181;
+    }
+    .widget-box {
+        background-color: #e5c181;
+        .search-block {
+            .search-btn {
+                background-color: rgba(229, 193, 129, 0.5);
+                color: #e5c181;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #e5c181;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #e5c181;
+        border-color: #e5c181;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #e5c181;
+        color: #e5c181;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #e5c181;
+            border-color: #e5c181;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #e5c181;
+            color: #e5c181;
+        }
+    }
+}
+
+.page-red {
+    .header,.footer {
+        background-color: #c22426;
+    }
+    .widget-box {
+        background-color: #c22426;
+        .search-block {
+            .search-btn {
+                background-color: rgba(194, 36, 38, 0.5);
+                color: #c22426;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #c22426;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #c22426;
+        border-color: #c22426;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #c22426;
+        color: #c22426;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #c22426;
+            border-color: #c22426;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #c22426;
+            color: #c22426;
+        }
+    }
+}
+
+.page-blue {
+    .header,.footer {
+        background-color: #2a639c;
+    }
+    .widget-box {
+        background-color: #2a639c;
+        .search-block {
+            .search-btn {
+                background-color: rgba(42, 99, 156, 0.5);
+                color: #2a639c;
+            }
+        }
+    }
+    .wgt-side-contact h3,
+    .wgt-side-contact a,
+    .wgt-website-note .note-1 h6,
+    .wgt-website-note .note-1 h6 a,
+    .wgt-location-detail .content h3,
+    .wgt-location-detail .content dt,
+    .wgt-location-detail .content h3 a,
+    .wgt-locations .location-list h5 a,
+    .wgt-locations .location-list h5,
+    .wgt-locatie-reserveren2 .name,
+    .page-title {
+        color: #2a639c;
+    }
+    .wgt-locations .searchbar .btn-rectangule,
+    .wgt-location-detail .content .btn1 {
+        background-color: #2a639c;
+        border-color: #2a639c;
+    }
+    .wgt-locations .location-list .btn-rectangule,
+    .wgt-location-detail .content .btn2,
+    .wgt-location-detail .content .btn3,
+    .wgt-locatie-reserveren .btn-rectangule {
+        border-color: #2a639c;
+        color: #2a639c;
+        background: none;
+    }
+    .wgt-locations .list-opts {
+        >.btn-rectangule {
+            background-color: #2a639c;
+            border-color: #2a639c;
+        }
+        >.list-info>.btn-rectangule {
+            border-color: #2a639c;
+            color: #2a639c;
+        }
+    }
 }

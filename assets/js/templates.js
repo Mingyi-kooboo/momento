@@ -8,10 +8,10 @@ $(function() {
 
 
     $('.slider').flexslider({
+        animation: "slide",
         controlNav: true,
         directionNav: false,
-        start: function(slider) {
-            //$(slider.directionNav).appendTo('.slider-topic');
+        start: function(slider) {           
         }
     });
 
@@ -23,7 +23,15 @@ $(function() {
     });
 
     /* Date Picker */
-    $('.date_picker').datepicker();
+    var array = ["2014-09-17","2014-09-19","2014-09-28"]
+    $('.date_picker').datepicker({
+        beforeShowDay: function(date){
+            var string = jQuery.datepicker.formatDate('yy-mm-dd', date);
+            return [ array.indexOf(string) == -1 ]
+         },
+        showOtherMonths: true,
+        selectOtherMonths:true
+    });
 
     /* media queries */
     mq();

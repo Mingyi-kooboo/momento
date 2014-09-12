@@ -27,6 +27,13 @@ $color-blue: #29639b;
             height: 42px;
             border-color: transparent;
             background-color: #fff;
+            &.input-validation-error{
+                box-shadow: 0 0 5px 0px #fbdfe9 !important;
+            }
+        }
+        span.field-validation-error{
+            color:#fff !important;
+            text-shadow: 0 0 5px 0px #fbdfe9 !important;
         }
         .search-btn {
             position: absolute;
@@ -122,7 +129,7 @@ $color-blue: #29639b;
             background-color: transparent;
         }
     }
-    .product-list-1 {
+    .product-list-pink {
         .name {
             h2 {
                 a {
@@ -142,7 +149,7 @@ $color-blue: #29639b;
             background-color: #cb1d59;
         }
     }
-    .product-list-2 {
+    .product-list-green {
         .name {
             h2 {
                 a {
@@ -162,7 +169,7 @@ $color-blue: #29639b;
             background-color: $color-darkGreen;
         }
     }
-    .product-list-3 {
+    .product-list-purple {
         .name {
             h2 {
                 a {
@@ -182,7 +189,7 @@ $color-blue: #29639b;
             background-color: $color-purple;
         }
     }
-    .product-list-4 {
+    .product-list-orange {
         .name {
             h2 {
                 a {
@@ -202,7 +209,7 @@ $color-blue: #29639b;
             background-color: $color-yellow;
         }
     }
-    .product-list-5 {
+    .product-list-red {
         .name {
             h2 {
                 a {
@@ -222,7 +229,7 @@ $color-blue: #29639b;
             background-color: $color-red;
         }
     }
-    .product-list-6 {
+    .product-list-blue {
         .name {
             h2 {
                 a {
@@ -285,15 +292,18 @@ $color-blue: #29639b;
             width: 355px;
         }
         .btn-rectangule {
-            font-size: 14px;
-            height: 28px;
+            font-size: 14px;            
             line-height: 28px;
+            white-space: nowrap;
         }
         .btns {
             text-align: right;
         }
-        .error {
+        .error,
+        .field-validation-error {
             padding-left: 13px;
+            position: absolute;
+            bottom: 0;           
         }
     }
     .tip {

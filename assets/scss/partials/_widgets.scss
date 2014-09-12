@@ -98,7 +98,14 @@
     }
     .control-group {
         float: right;
+        position: relative;
         vertical-align: middle;
+        .error {
+            color: #fff;
+            position: absolute;
+            left: 3px;
+            bottom: -26px;
+        }
         .txt {
             border: 1px solid #e5e5e5;
             border-top-color: #ccc;
@@ -313,6 +320,8 @@
         h5 {
             padding: 32px 45px 0 50px;
             text-align: center;
+            height: 54px;
+            overflow-x: hidden;
         }
         .con {
             padding-left: 50px;
@@ -323,7 +332,7 @@
             line-height: 22px;
             font-size: 14px;
             color: #383838;
-            padding: 48px 45px 45px 0;
+            padding: 21px 45px 45px 0;
             height: 88px;
             overflow: hidden;
         }
@@ -345,6 +354,7 @@
             position: relative;
             padding: 2px 0;
             height: 376px;
+            overflow: hidden;
         }
         .btn-round {
             position: absolute;
@@ -352,7 +362,7 @@
             top: 67px;
         }
         .img {
-            padding-top: 45px;
+            padding-top: 18px;
             img {
                 max-width: 100%;
                 text-align: center;
@@ -362,13 +372,17 @@
             width: 31.25%;
             margin: 55px 0 0 2.0833333333333%;
             float: left;
+            background: url(images/bg-item.png) 0 0 repeat-x;
             &.active,
             &:hover {
-                .img {
-                    display: none;
+                h5 {
+                    background-color: rgba(255, 255, 255, 0.95);
                 }
                 .con {
                     display: block;
+                    background-color: rgba(255, 255, 255, 0.95);
+                    position: relative;
+                    z-index: 1;
                 }
                 .inner {
                     padding: 0;
@@ -378,13 +392,17 @@
                     padding: 0;
                 }
                 .img {
-                    display: none;
+                    position: absolute;
+                    left: 0;
+                    z-index: 0;
+                    top: 80px;
                 }
                 .btn-round {
                     display: none;
                 }
             }
-            &.product-type-1 {
+            &.product-type-1,
+            &.product-type-pink {
                 h5,h5 a,.price {
                     color: #cb1150;
                 }
@@ -406,7 +424,8 @@
                     color: #cb1150;
                 }
             }
-            &.product-type-2 {
+            &.product-type-2,
+            &.product-type-green {
                 h5,h5 a,.price {
                     color: #16979d;
                 }
@@ -428,7 +447,8 @@
                     color: #16979d;
                 }
             }
-            &.product-type-3 {
+            &.product-type-3,
+            &.product-type-purple {
                 h5,h5 a,.price {
                     color: #493469;
                 }
@@ -450,7 +470,8 @@
                     color: #493469;
                 }
             }
-            &.product-type-4 {
+            &.product-type-4,
+            &.product-type-orange {
                 h5,h5 a,.price {
                     color: #e5c181;
                 }
@@ -472,7 +493,8 @@
                     color: #e5c181;
                 }
             }
-            &.product-type-5 {
+            &.product-type-5,
+            &.product-type-red {
                 h5,h5 a,.price {
                     color: #c22426;
                 }
@@ -494,7 +516,8 @@
                     color: #c22426;
                 }
             }
-            &.product-type-6 {
+            &.product-type-6,
+            &.product-type-blue {
                 h5,h5 a,.price {
                     color: #2a639c;
                 }
@@ -535,6 +558,23 @@
     .item {
         display: inline-block;
         vertical-align: middle;
+        span {
+            display: block;
+            height: 160px;
+            text-align: center;
+        }
+    }
+    .item-2 {
+        cursor: pointer;
+        background: url(images/bg-gift.png) 50% 0 no-repeat;
+        img {
+            display: none;
+        }
+        &:hover,&:active {
+            img {
+                display: inline-block;
+            }
+        }
     }
     .line {
         display: block;
@@ -569,12 +609,15 @@
 }
 
 .wgt-slider {
-    height: 390px;
     position: relative;
     .slides {
-        overflow: hidden;
         li {
+            min-height: 390px;
             position: relative;
+            .r-inner {
+                position: relative;
+                z-index: 2;
+            }
             h5 {
                 padding-top: 55px;
                 font-family: "montserratbold";
@@ -593,14 +636,20 @@
             font-size: 14px;
             line-height: 18px;
             color: #383838;
-            padding: 35px 0;
+            padding: 35px 910px 35px 0;
             font-family: "Helvetica";
         }
         .img {
             position: absolute;
             top: 0;
-            left: 300px;
-            width: 92.553191489362%;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+            img {
+                display: inline-block;
+                max-width: none;
+            }
         }
     }
 }
@@ -609,17 +658,18 @@
     background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
     padding: 42px 0 0;
     position: relative;
-    .select-mask{
-        position: absolute;top:0;
-        right:0;
-        left:0;
-        bottom:0;
-        background-color: rgba(0,0,0,0.3);
+    .select-mask {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
         display: none;
     }
-    select.cur{
+    select.cur {
         position: relative;
-        z-index:2;
+        z-index: 2;
     }
     .searchbar {
         padding: 40px 0 48px;
@@ -690,7 +740,7 @@
             padding: 15px 0 20px;
         }
         p.place {
-            margin:5px 0 18px;
+            margin: 5px 0 18px;
         }
         h5,
         h5 a {
