@@ -3,6 +3,28 @@
     body {
         overflow-x: hidden;
     }
+    .wgt-slider {
+        .slides {
+            li {
+                min-height: 0;
+                h5 {
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .wgt-slider {
+        .slides {
+            li {
+                h5 {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -134,9 +156,14 @@
                 }
             }
             li {
+                min-height: 0;
                 height: auto;
                 h5 {
-                    padding-top: 0;
+                    padding-top: 20px;
+                }
+                .r-inner {
+                    position: static;
+                    margin-left: 10px;
                 }
             }
             blockquote {
@@ -187,12 +214,12 @@
             .btn {
                 float: none;
             }
-            .error{
+            .error {
                 margin-top: -15px;
                 position: static;
                 display: block;
                 -webkit-transform: translate(0, 0) scale(1);
-                text-align: left;                
+                text-align: left;
             }
         }
     }
@@ -494,5 +521,13 @@
     .page-pink .wgt-locations .list-opts > .list-info > .btn-rectangule {
         background-color: #cb1150;
         border-color: #cb1150;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .search-map {
+        .search_input {
+            width: 70%;
+        }
     }
 }

@@ -59,30 +59,29 @@ body {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
-  max-width: 1280px;
   margin: 0 auto; }
 
-/* line 13, scss/partials/_base.scss */
+/* line 12, scss/partials/_base.scss */
 a {
   text-decoration: none;
   cursor: pointer; }
 
-/* line 18, scss/partials/_base.scss */
+/* line 17, scss/partials/_base.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 22, scss/partials/_base.scss */
+/* line 21, scss/partials/_base.scss */
 button {
   background: none;
   margin: 0;
   padding: 0;
   border: 0; }
 
-/* line 29, scss/partials/_base.scss */
+/* line 28, scss/partials/_base.scss */
 a > img {
   border: 0; }
 
-/* line 32, scss/partials/_base.scss */
+/* line 31, scss/partials/_base.scss */
 img {
   max-width: 100%; }
 
@@ -4293,7 +4292,7 @@ body .ui-tooltip {
       padding: 32px 45px 0 50px;
       text-align: center;
       height: 54px;
-      overflow-x: hidden; }
+      overflow: hidden; }
     /* line 326, scss/partials/_widgets.scss */
     .wgt-product-list-home ul .con {
       padding-left: 50px;
@@ -4488,24 +4487,30 @@ body .ui-tooltip {
     text-transform: uppercase; }
   /* line 558, scss/partials/_widgets.scss */
   .wgt-concept .item {
+    cursor: pointer;
     display: inline-block;
     vertical-align: middle; }
-    /* line 561, scss/partials/_widgets.scss */
+    /* line 562, scss/partials/_widgets.scss */
     .wgt-concept .item span {
       display: block;
       height: 160px;
       text-align: center; }
-  /* line 567, scss/partials/_widgets.scss */
-  .wgt-concept .item-2 {
-    cursor: pointer;
-    background: url(images/bg-gift.png) 50% 0 no-repeat; }
-    /* line 570, scss/partials/_widgets.scss */
-    .wgt-concept .item-2 img {
+    /* line 567, scss/partials/_widgets.scss */
+    .wgt-concept .item img {
       display: none; }
-    /* line 574, scss/partials/_widgets.scss */
-    .wgt-concept .item-2:hover img, .wgt-concept .item-2:active img {
+    /* line 571, scss/partials/_widgets.scss */
+    .wgt-concept .item:hover img, .wgt-concept .item:active img {
       display: inline-block; }
+  /* line 576, scss/partials/_widgets.scss */
+  .wgt-concept .item-1 {
+    background: url(images/bg-gift-1.png) 50% 0 no-repeat; }
   /* line 579, scss/partials/_widgets.scss */
+  .wgt-concept .item-2 {
+    background: url(images/bg-gift-2.png) 50% 0 no-repeat; }
+  /* line 582, scss/partials/_widgets.scss */
+  .wgt-concept .item-3 {
+    background: url(images/bg-gift-3.png) 50% 0 no-repeat; }
+  /* line 585, scss/partials/_widgets.scss */
   .wgt-concept .line {
     display: block;
     width: 140px;
@@ -4513,22 +4518,22 @@ body .ui-tooltip {
     line-height: 0;
     border-bottom: 1px solid #000;
     margin: 0 auto; }
-  /* line 587, scss/partials/_widgets.scss */
+  /* line 593, scss/partials/_widgets.scss */
   .wgt-concept .formula {
     padding-top: 34px; }
-  /* line 590, scss/partials/_widgets.scss */
+  /* line 596, scss/partials/_widgets.scss */
   .wgt-concept .symbol {
     font-family: "montserratregular";
     font-size: 50px;
     display: inline-block;
     margin: 0 55px; }
-  /* line 596, scss/partials/_widgets.scss */
+  /* line 602, scss/partials/_widgets.scss */
   .wgt-concept h6 {
     font-size: 18px;
     font-family: "montserratbold";
     font-weight: 400;
     padding-top: 30px; }
-  /* line 602, scss/partials/_widgets.scss */
+  /* line 608, scss/partials/_widgets.scss */
   .wgt-concept .note {
     font-family: "Helvetica";
     line-height: 24px;
@@ -4536,30 +4541,33 @@ body .ui-tooltip {
     padding: 33px 0 40px;
     background: url(images/bg-steps-bm.png) 50% bottom no-repeat; }
 
-/* line 611, scss/partials/_widgets.scss */
+/* line 617, scss/partials/_widgets.scss */
 .wgt-slider {
   position: relative; }
-  /* line 614, scss/partials/_widgets.scss */
+  /* line 620, scss/partials/_widgets.scss */
   .wgt-slider .slides li {
     min-height: 390px;
     position: relative; }
-    /* line 617, scss/partials/_widgets.scss */
+    /* line 623, scss/partials/_widgets.scss */
     .wgt-slider .slides li .r-inner {
-      position: relative;
-      z-index: 2; }
-    /* line 621, scss/partials/_widgets.scss */
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 50%;
+      margin-left: -470px; }
+    /* line 630, scss/partials/_widgets.scss */
     .wgt-slider .slides li h5 {
       padding-top: 55px;
       font-family: "montserratbold";
       font-size: 22px; }
-      /* line 625, scss/partials/_widgets.scss */
+      /* line 634, scss/partials/_widgets.scss */
       .wgt-slider .slides li h5 a {
         color: #383838;
         line-height: 1.3; }
-        /* line 628, scss/partials/_widgets.scss */
+        /* line 637, scss/partials/_widgets.scss */
         .wgt-slider .slides li h5 a span {
           color: #d13066; }
-  /* line 634, scss/partials/_widgets.scss */
+  /* line 643, scss/partials/_widgets.scss */
   .wgt-slider .slides blockquote {
     width: 300px;
     font-size: 14px;
@@ -4567,25 +4575,27 @@ body .ui-tooltip {
     color: #383838;
     padding: 35px 910px 35px 0;
     font-family: "Helvetica"; }
-  /* line 642, scss/partials/_widgets.scss */
+  /* line 651, scss/partials/_widgets.scss */
   .wgt-slider .slides .img {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
     text-align: center;
-    width: 100%; }
-    /* line 649, scss/partials/_widgets.scss */
+    width: 100%;
+    font-size: 0;
+    line-height: 0; }
+    /* line 660, scss/partials/_widgets.scss */
     .wgt-slider .slides .img img {
       display: inline-block;
-      max-width: none; }
+      min-width: 100%; }
 
-/* line 657, scss/partials/_widgets.scss */
+/* line 668, scss/partials/_widgets.scss */
 .wgt-locations {
   background: url(images/bg-steps.png) 50% 0 no-repeat #f6f5f4;
   padding: 42px 0 0;
   position: relative; }
-  /* line 661, scss/partials/_widgets.scss */
+  /* line 672, scss/partials/_widgets.scss */
   .wgt-locations .select-mask {
     position: absolute;
     top: 0;
@@ -4594,11 +4604,11 @@ body .ui-tooltip {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3);
     display: none; }
-  /* line 670, scss/partials/_widgets.scss */
+  /* line 681, scss/partials/_widgets.scss */
   .wgt-locations select.cur {
     position: relative;
     z-index: 2; }
-  /* line 674, scss/partials/_widgets.scss */
+  /* line 685, scss/partials/_widgets.scss */
   .wgt-locations .searchbar {
     padding: 40px 0 48px; }
     /* line 3, scss/partials/_mixin.scss */
@@ -4610,25 +4620,25 @@ body .ui-tooltip {
     /* line 7, scss/partials/_mixin.scss */
     .wgt-locations .searchbar:after {
       clear: both; }
-    /* line 677, scss/partials/_widgets.scss */
+    /* line 688, scss/partials/_widgets.scss */
     .wgt-locations .searchbar input[type="text"] {
       width: 340px;
       vertical-align: middle;
       margin: 0; }
-    /* line 682, scss/partials/_widgets.scss */
+    /* line 693, scss/partials/_widgets.scss */
     .wgt-locations .searchbar input[type="text"], .wgt-locations .searchbar select, .wgt-locations .searchbar .btn-rectangule {
       padding-top: 11px;
       padding-bottom: 11px; }
-    /* line 686, scss/partials/_widgets.scss */
+    /* line 697, scss/partials/_widgets.scss */
     .wgt-locations .searchbar .btn-rectangule {
       float: right;
       font-size: 14px; }
-    /* line 690, scss/partials/_widgets.scss */
+    /* line 701, scss/partials/_widgets.scss */
     .wgt-locations .searchbar select {
       margin: 0 10px 0 0;
       width: 250px;
       vertical-align: middle; }
-  /* line 696, scss/partials/_widgets.scss */
+  /* line 707, scss/partials/_widgets.scss */
   .wgt-locations h2 {
     text-align: center;
     color: #383838;
@@ -4645,15 +4655,15 @@ body .ui-tooltip {
   /* line 7, scss/partials/_mixin.scss */
   .wgt-locations .location-list ul:after {
     clear: both; }
-  /* line 708, scss/partials/_widgets.scss */
+  /* line 719, scss/partials/_widgets.scss */
   .wgt-locations .location-list li {
     float: left;
     width: 50%;
     margin-bottom: 20px; }
-  /* line 713, scss/partials/_widgets.scss */
+  /* line 724, scss/partials/_widgets.scss */
   .wgt-locations .location-list .inner {
     padding-right: 5px; }
-  /* line 716, scss/partials/_widgets.scss */
+  /* line 727, scss/partials/_widgets.scss */
   .wgt-locations .location-list .img {
     width: 139px;
     height: 139px;
@@ -4661,34 +4671,34 @@ body .ui-tooltip {
     float: left;
     margin-right: 20px;
     background-color: #d7d7d7; }
-    /* line 722, scss/partials/_widgets.scss */
+    /* line 733, scss/partials/_widgets.scss */
     .wgt-locations .location-list .img img {
       max-width: 100%;
       min-width: 100%; }
-  /* line 728, scss/partials/_widgets.scss */
+  /* line 739, scss/partials/_widgets.scss */
   .wgt-locations .location-list .con {
     overflow: hidden;
     font-size: 14px;
     color: #383838;
     line-height: 18px; }
-  /* line 734, scss/partials/_widgets.scss */
+  /* line 745, scss/partials/_widgets.scss */
   .wgt-locations .location-list blockquote {
     height: 72px;
     overflow: hidden; }
-  /* line 738, scss/partials/_widgets.scss */
+  /* line 749, scss/partials/_widgets.scss */
   .wgt-locations .location-list .btns {
     display: none;
     padding: 15px 0 20px; }
-  /* line 742, scss/partials/_widgets.scss */
+  /* line 753, scss/partials/_widgets.scss */
   .wgt-locations .location-list p.place {
     margin: 5px 0 18px; }
-  /* line 746, scss/partials/_widgets.scss */
+  /* line 757, scss/partials/_widgets.scss */
   .wgt-locations .location-list h5,
   .wgt-locations .location-list h5 a {
     color: #c22426;
     font-size: 18px;
     font-family: "montserratbold"; }
-  /* line 752, scss/partials/_widgets.scss */
+  /* line 763, scss/partials/_widgets.scss */
   .wgt-locations .list-opts {
     font-family: "montserratbold";
     font-size: 14px;
@@ -4702,13 +4712,13 @@ body .ui-tooltip {
     /* line 7, scss/partials/_mixin.scss */
     .wgt-locations .list-opts:after {
       clear: both; }
-    /* line 757, scss/partials/_widgets.scss */
+    /* line 768, scss/partials/_widgets.scss */
     .wgt-locations .list-opts .list-info {
       float: right; }
-    /* line 760, scss/partials/_widgets.scss */
+    /* line 771, scss/partials/_widgets.scss */
     .wgt-locations .list-opts strong {
       margin-right: 10px; }
-  /* line 764, scss/partials/_widgets.scss */
+  /* line 775, scss/partials/_widgets.scss */
   .wgt-locations .map {
     position: relative;
     width: 100%;
@@ -4716,11 +4726,11 @@ body .ui-tooltip {
     overflow: hidden;
     font-size: 0;
     line-height: 0; }
-    /* line 771, scss/partials/_widgets.scss */
+    /* line 782, scss/partials/_widgets.scss */
     .wgt-locations .map img {
       min-width: 100%;
       max-width: 100%; }
-    /* line 775, scss/partials/_widgets.scss */
+    /* line 786, scss/partials/_widgets.scss */
     .wgt-locations .map .shadow {
       display: block;
       position: absolute;
@@ -4730,17 +4740,17 @@ body .ui-tooltip {
       background: url(images/bg-map-bm.png) 50% bottom no-repeat;
       height: 20px; }
 
-/* line 787, scss/partials/_widgets.scss */
+/* line 798, scss/partials/_widgets.scss */
 .wgt-to-desktop {
   display: none;
   background-color: #fff;
   text-align: center;
   padding: 5px 0; }
-  /* line 792, scss/partials/_widgets.scss */
+  /* line 803, scss/partials/_widgets.scss */
   .wgt-to-desktop .icon {
     margin-right: 5px;
     vertical-align: middle; }
-  /* line 796, scss/partials/_widgets.scss */
+  /* line 807, scss/partials/_widgets.scss */
   .wgt-to-desktop a {
     font-size: 10px;
     -webkit-transform-origin: 0% 50%;
@@ -5508,103 +5518,114 @@ body .ui-tooltip {
 @media screen and (max-width: 1280px) {
   /* line 3, scss/partials/_responsive.scss */
   body {
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+
+  /* line 8, scss/partials/_responsive.scss */
+  .wgt-slider .slides li {
+    min-height: 0; }
+    /* line 10, scss/partials/_responsive.scss */
+    .wgt-slider .slides li h5 {
+      padding-top: 20px; } }
+@media screen and (max-width: 1050px) {
+  /* line 22, scss/partials/_responsive.scss */
+  .wgt-slider .slides li h5 {
+    padding-top: 0; } }
 @media screen and (max-width: 960px) {
-  /* line 9, scss/partials/_responsive.scss */
+  /* line 31, scss/partials/_responsive.scss */
   .container {
     background: #fff; }
 
-  /* line 12, scss/partials/_responsive.scss */
+  /* line 34, scss/partials/_responsive.scss */
   .r-inner {
     width: auto;
     margin-left: 10px;
     margin-right: 10px;
     min-width: 300px; }
 
-  /* line 18, scss/partials/_responsive.scss */
+  /* line 40, scss/partials/_responsive.scss */
   .top {
     display: none; }
 
-  /* line 21, scss/partials/_responsive.scss */
+  /* line 43, scss/partials/_responsive.scss */
   header.header {
     height: 60px;
     position: relative;
     z-index: 2; }
 
-  /* line 26, scss/partials/_responsive.scss */
+  /* line 48, scss/partials/_responsive.scss */
   .side {
     display: none; }
 
-  /* line 29, scss/partials/_responsive.scss */
+  /* line 51, scss/partials/_responsive.scss */
   .verkooppunten .side {
     display: block;
     width: auto;
     float: none; }
 
-  /* line 34, scss/partials/_responsive.scss */
+  /* line 56, scss/partials/_responsive.scss */
   .main {
     width: auto;
     float: none; }
 
-  /* line 38, scss/partials/_responsive.scss */
+  /* line 60, scss/partials/_responsive.scss */
   .page-title-box {
     margin-top: 20px; }
 
-  /* line 42, scss/partials/_responsive.scss */
+  /* line 64, scss/partials/_responsive.scss */
   .form th, .form td {
     display: block;
     width: 100%; }
-  /* line 47, scss/partials/_responsive.scss */
+  /* line 69, scss/partials/_responsive.scss */
   .form .contact-tab th {
     width: 100%;
     padding-top: 3px; }
-  /* line 51, scss/partials/_responsive.scss */
+  /* line 73, scss/partials/_responsive.scss */
   .form .contact-tab .btn-rect-stl1-1 {
     display: block;
     background-color: #cb1150;
     color: #fff;
     margin-bottom: 20px; }
-  /* line 58, scss/partials/_responsive.scss */
+  /* line 80, scss/partials/_responsive.scss */
   .form .error.pc {
     display: none; }
-  /* line 61, scss/partials/_responsive.scss */
+  /* line 83, scss/partials/_responsive.scss */
   .form .error.mobile {
     display: inline-block;
     position: static; }
-  /* line 65, scss/partials/_responsive.scss */
+  /* line 87, scss/partials/_responsive.scss */
   .form .text-input {
     margin-bottom: 0;
     padding-bottom: 0; }
-  /* line 69, scss/partials/_responsive.scss */
+  /* line 91, scss/partials/_responsive.scss */
   .form textarea {
     margin-bottom: 4px; }
-  /* line 72, scss/partials/_responsive.scss */
+  /* line 94, scss/partials/_responsive.scss */
   .form .input-out-box {
     padding-bottom: 0; }
 
-  /* line 77, scss/partials/_responsive.scss */
+  /* line 99, scss/partials/_responsive.scss */
   .search-map .search_input {
     width: 74%; }
 
   /* wgt setting */
-  /* line 82, scss/partials/_responsive.scss */
+  /* line 104, scss/partials/_responsive.scss */
   .wgt-logo {
     float: right; }
-    /* line 84, scss/partials/_responsive.scss */
+    /* line 106, scss/partials/_responsive.scss */
     .wgt-logo a {
       width: 63px;
       height: 35px; }
 
-  /* line 89, scss/partials/_responsive.scss */
+  /* line 111, scss/partials/_responsive.scss */
   .wgt-menu {
     float: left;
     margin-top: 17px; }
-    /* line 92, scss/partials/_responsive.scss */
+    /* line 114, scss/partials/_responsive.scss */
     .wgt-menu > i {
       display: inline-block;
       color: #fff;
       font-size: 16px; }
-    /* line 97, scss/partials/_responsive.scss */
+    /* line 119, scss/partials/_responsive.scss */
     .wgt-menu ul {
       display: none;
       top: 60px;
@@ -5615,90 +5636,95 @@ body .ui-tooltip {
       background-color: #fff;
       border-top: 0;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
-      /* line 107, scss/partials/_responsive.scss */
+      /* line 129, scss/partials/_responsive.scss */
       .wgt-menu ul li {
         margin: 0;
         padding: 0;
         float: none;
         text-align: center; }
-        /* line 112, scss/partials/_responsive.scss */
+        /* line 134, scss/partials/_responsive.scss */
         .wgt-menu ul li a {
           color: #383838;
           line-height: 34px;
           padding: 0; }
-          /* line 116, scss/partials/_responsive.scss */
+          /* line 138, scss/partials/_responsive.scss */
           .wgt-menu ul li a:hover {
             border: 0; }
-    /* line 122, scss/partials/_responsive.scss */
+    /* line 144, scss/partials/_responsive.scss */
     .wgt-menu ul.active {
       display: block; }
 
-  /* line 126, scss/partials/_responsive.scss */
+  /* line 148, scss/partials/_responsive.scss */
   .wgt-slider {
     height: auto;
     padding-bottom: 50px; }
-    /* line 130, scss/partials/_responsive.scss */
+    /* line 152, scss/partials/_responsive.scss */
     .wgt-slider .slides .img {
       position: static; }
-      /* line 132, scss/partials/_responsive.scss */
+      /* line 154, scss/partials/_responsive.scss */
       .wgt-slider .slides .img img {
         max-width: 100%; }
-    /* line 136, scss/partials/_responsive.scss */
+    /* line 158, scss/partials/_responsive.scss */
     .wgt-slider .slides li {
+      min-height: 0;
       height: auto; }
-      /* line 138, scss/partials/_responsive.scss */
+      /* line 161, scss/partials/_responsive.scss */
       .wgt-slider .slides li h5 {
-        padding-top: 0; }
-    /* line 142, scss/partials/_responsive.scss */
+        padding-top: 20px; }
+      /* line 164, scss/partials/_responsive.scss */
+      .wgt-slider .slides li .r-inner {
+        position: static;
+        margin-left: 10px; }
+    /* line 169, scss/partials/_responsive.scss */
     .wgt-slider .slides blockquote {
       width: auto;
       padding: 23px 0; }
-    /* line 147, scss/partials/_responsive.scss */
+    /* line 174, scss/partials/_responsive.scss */
     .wgt-slider .flex-control-paging li a {
       width: 8px;
       height: 8px;
       margin: 2px; }
-    /* line 152, scss/partials/_responsive.scss */
+    /* line 179, scss/partials/_responsive.scss */
     .wgt-slider .flex-control-nav {
       bottom: 0; }
-    /* line 155, scss/partials/_responsive.scss */
+    /* line 182, scss/partials/_responsive.scss */
     .wgt-slider .btns {
       text-align: center; }
 
-  /* line 161, scss/partials/_responsive.scss */
+  /* line 188, scss/partials/_responsive.scss */
   .wgt-concept .item,
   .wgt-concept .symbol {
     display: block;
     width: auto; }
-  /* line 165, scss/partials/_responsive.scss */
+  /* line 192, scss/partials/_responsive.scss */
   .wgt-concept .r-inner {
     margin: 0; }
 
-  /* line 169, scss/partials/_responsive.scss */
+  /* line 196, scss/partials/_responsive.scss */
   .wgt-product-list-home {
     display: none; }
 
-  /* line 172, scss/partials/_responsive.scss */
+  /* line 199, scss/partials/_responsive.scss */
   .wgt-gift-card-search {
     text-align: center; }
-    /* line 174, scss/partials/_responsive.scss */
+    /* line 201, scss/partials/_responsive.scss */
     .wgt-gift-card-search .control-label {
       float: none;
       display: block;
       line-height: 1.3; }
-    /* line 179, scss/partials/_responsive.scss */
+    /* line 206, scss/partials/_responsive.scss */
     .wgt-gift-card-search .control-group {
       float: none;
       overflow: hidden; }
-      /* line 182, scss/partials/_responsive.scss */
+      /* line 209, scss/partials/_responsive.scss */
       .wgt-gift-card-search .control-group .txt {
         margin: 8px 0 16px;
         width: 100%;
         float: none; }
-      /* line 187, scss/partials/_responsive.scss */
+      /* line 214, scss/partials/_responsive.scss */
       .wgt-gift-card-search .control-group .btn {
         float: none; }
-      /* line 190, scss/partials/_responsive.scss */
+      /* line 217, scss/partials/_responsive.scss */
       .wgt-gift-card-search .control-group .error {
         margin-top: -15px;
         position: static;
@@ -5706,53 +5732,53 @@ body .ui-tooltip {
         -webkit-transform: translate(0, 0) scale(1);
         text-align: left; }
 
-  /* line 199, scss/partials/_responsive.scss */
+  /* line 226, scss/partials/_responsive.scss */
   .wgt-website-note {
     display: none;
     margin-top: 0; }
-    /* line 202, scss/partials/_responsive.scss */
+    /* line 229, scss/partials/_responsive.scss */
     .wgt-website-note .note-1 {
       float: none;
       width: auto; }
-    /* line 206, scss/partials/_responsive.scss */
+    /* line 233, scss/partials/_responsive.scss */
     .wgt-website-note .note-2 {
       float: none;
       margin: 32px auto 0; }
-    /* line 211, scss/partials/_responsive.scss */
+    /* line 238, scss/partials/_responsive.scss */
     .wgt-website-note .share-this strong {
       display: none; }
 
-  /* line 216, scss/partials/_responsive.scss */
+  /* line 243, scss/partials/_responsive.scss */
   .wgt-footer-nav {
     display: none; }
 
-  /* line 219, scss/partials/_responsive.scss */
+  /* line 246, scss/partials/_responsive.scss */
   .wgt-copyright {
     float: none;
     text-align: center; }
 
-  /* line 223, scss/partials/_responsive.scss */
+  /* line 250, scss/partials/_responsive.scss */
   .wgt-to-desktop {
     display: block; }
 
-  /* line 226, scss/partials/_responsive.scss */
+  /* line 253, scss/partials/_responsive.scss */
   .wgt-breadcrumb {
     display: none; }
 
-  /* line 229, scss/partials/_responsive.scss */
+  /* line 256, scss/partials/_responsive.scss */
   .wgt-page-nav {
     display: none; }
 
-  /* line 232, scss/partials/_responsive.scss */
+  /* line 259, scss/partials/_responsive.scss */
   .wgt-product-list {
     padding-top: 14px; }
-    /* line 234, scss/partials/_responsive.scss */
+    /* line 261, scss/partials/_responsive.scss */
     .wgt-product-list li {
       background-size: 130%;
       margin-bottom: 17px;
       padding-bottom: 27px;
       background-position: 50% bottom; }
-      /* line 239, scss/partials/_responsive.scss */
+      /* line 266, scss/partials/_responsive.scss */
       .wgt-product-list li .images {
         float: none;
         text-align: center;
@@ -5760,248 +5786,252 @@ body .ui-tooltip {
         margin: 0;
         font-size: 0;
         line-height: 0; }
-        /* line 246, scss/partials/_responsive.scss */
+        /* line 273, scss/partials/_responsive.scss */
         .wgt-product-list li .images img {
           display: inline-block;
           max-width: 100%;
           border: solid 1px #e1e1e1; }
-      /* line 252, scss/partials/_responsive.scss */
+      /* line 279, scss/partials/_responsive.scss */
       .wgt-product-list li .list-cont {
         margin-right: 0;
         overflow: visible;
         margin-top: 10px; }
-        /* line 256, scss/partials/_responsive.scss */
+        /* line 283, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .btn1 {
           float: left; }
-        /* line 259, scss/partials/_responsive.scss */
+        /* line 286, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .btn2 {
           float: right;
           margin-right: 0; }
-        /* line 263, scss/partials/_responsive.scss */
+        /* line 290, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .name {
           min-height: 0;
           margin-bottom: 10px; }
-          /* line 266, scss/partials/_responsive.scss */
+          /* line 293, scss/partials/_responsive.scss */
           .wgt-product-list li .list-cont .name .btn-round {
             top: -25px;
             right: 20px; }
-        /* line 271, scss/partials/_responsive.scss */
+        /* line 298, scss/partials/_responsive.scss */
         .wgt-product-list li .list-cont .product-descript {
           min-height: 0;
           margin-bottom: 15px; }
 
-  /* line 278, scss/partials/_responsive.scss */
+  /* line 305, scss/partials/_responsive.scss */
   .wgt-faq {
     margin-bottom: 20px; }
 
-  /* line 281, scss/partials/_responsive.scss */
+  /* line 308, scss/partials/_responsive.scss */
   .wgt-giftcard {
     margin-bottom: 28px; }
-    /* line 284, scss/partials/_responsive.scss */
+    /* line 311, scss/partials/_responsive.scss */
     .wgt-giftcard.form .input-out-box {
       padding-bottom: 15px; }
-    /* line 289, scss/partials/_responsive.scss */
+    /* line 316, scss/partials/_responsive.scss */
     .wgt-giftcard table .error {
       bottom: 3px;
       padding-left: 0; }
-    /* line 293, scss/partials/_responsive.scss */
+    /* line 320, scss/partials/_responsive.scss */
     .wgt-giftcard table .btn-rectangule {
       line-height: 18px; }
-    /* line 297, scss/partials/_responsive.scss */
+    /* line 324, scss/partials/_responsive.scss */
     .wgt-giftcard .btn-rect-stl1 {
       display: block; }
-    /* line 300, scss/partials/_responsive.scss */
+    /* line 327, scss/partials/_responsive.scss */
     .wgt-giftcard .btn-rect-stl1-1 {
       display: inline-block; }
-    /* line 303, scss/partials/_responsive.scss */
+    /* line 330, scss/partials/_responsive.scss */
     .wgt-giftcard .tip {
       margin-left: -10px;
       margin-right: -10px;
       padding-right: 10px; }
-      /* line 307, scss/partials/_responsive.scss */
+      /* line 334, scss/partials/_responsive.scss */
       .wgt-giftcard .tip span {
         display: block;
         margin-left: 0;
         font-size: 26px;
         padding: 5px 0 0; }
-    /* line 315, scss/partials/_responsive.scss */
+    /* line 342, scss/partials/_responsive.scss */
     .wgt-giftcard .tip-content .lft-block {
       width: auto;
       padding-left: 0;
       padding-top: 15px;
       margin-right: 0;
       clear: left; }
-    /* line 322, scss/partials/_responsive.scss */
+    /* line 349, scss/partials/_responsive.scss */
     .wgt-giftcard .tip-content .rgt-bolck {
       text-align: center;
       margin-bottom: 15px; }
-    /* line 326, scss/partials/_responsive.scss */
+    /* line 353, scss/partials/_responsive.scss */
     .wgt-giftcard .tip-content .button {
       float: none; }
-    /* line 330, scss/partials/_responsive.scss */
+    /* line 357, scss/partials/_responsive.scss */
     .wgt-giftcard table input[type="text"] {
       width: 100%; }
 
-  /* line 334, scss/partials/_responsive.scss */
+  /* line 361, scss/partials/_responsive.scss */
   .wgt-locations {
     background: none;
     background-color: #f6f5f4; }
-    /* line 335, scss/partials/_responsive.scss */
+    /* line 362, scss/partials/_responsive.scss */
     .wgt-locations h2 {
       font-size: 16px; }
-    /* line 341, scss/partials/_responsive.scss */
+    /* line 368, scss/partials/_responsive.scss */
     .wgt-locations .searchbar select {
       display: block;
       width: 100%;
       margin-bottom: 5px; }
-    /* line 346, scss/partials/_responsive.scss */
+    /* line 373, scss/partials/_responsive.scss */
     .wgt-locations .searchbar input[type="text"] {
       width: 78%;
       margin-bottom: 5px; }
-    /* line 352, scss/partials/_responsive.scss */
+    /* line 379, scss/partials/_responsive.scss */
     .wgt-locations .location-list li {
       float: none;
       width: auto;
       border-bottom: 1px solid #c3c3c3; }
-      /* line 356, scss/partials/_responsive.scss */
+      /* line 383, scss/partials/_responsive.scss */
       .wgt-locations .location-list li .img {
         display: none; }
-      /* line 359, scss/partials/_responsive.scss */
+      /* line 386, scss/partials/_responsive.scss */
       .wgt-locations .location-list li:last-child {
         border-bottom: 0;
         margin-bottom: 0; }
-    /* line 364, scss/partials/_responsive.scss */
+    /* line 391, scss/partials/_responsive.scss */
     .wgt-locations .location-list blockquote {
       height: auto; }
-    /* line 367, scss/partials/_responsive.scss */
+    /* line 394, scss/partials/_responsive.scss */
     .wgt-locations .location-list .btns {
       display: block; }
-      /* line 369, scss/partials/_responsive.scss */
+      /* line 396, scss/partials/_responsive.scss */
       .wgt-locations .location-list .btns .btn-rect-stl5-1 {
         border-width: 2px; }
-    /* line 374, scss/partials/_responsive.scss */
+    /* line 401, scss/partials/_responsive.scss */
     .wgt-locations .list-opts {
       padding: 0 0 9px; }
-      /* line 376, scss/partials/_responsive.scss */
+      /* line 403, scss/partials/_responsive.scss */
       .wgt-locations .list-opts > .btn-rectangule {
         display: none; }
-      /* line 379, scss/partials/_responsive.scss */
+      /* line 406, scss/partials/_responsive.scss */
       .wgt-locations .list-opts .btn-rect-stl5-1 {
         color: #fff;
         display: block;
         width: auto; }
-      /* line 384, scss/partials/_responsive.scss */
+      /* line 411, scss/partials/_responsive.scss */
       .wgt-locations .list-opts .list-info {
         float: none; }
-        /* line 386, scss/partials/_responsive.scss */
+        /* line 413, scss/partials/_responsive.scss */
         .wgt-locations .list-opts .list-info strong {
           display: none; }
 
-  /* line 392, scss/partials/_responsive.scss */
+  /* line 419, scss/partials/_responsive.scss */
   .wgt-locatie-reserveren {
     top: 0;
     background: none;
     padding: 12px 0 14px;
     background-color: #f6f5f4; }
-    /* line 397, scss/partials/_responsive.scss */
+    /* line 424, scss/partials/_responsive.scss */
     .wgt-locatie-reserveren .form {
       width: auto; }
-      /* line 399, scss/partials/_responsive.scss */
+      /* line 426, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form th {
         padding-top: 0; }
-      /* line 402, scss/partials/_responsive.scss */
+      /* line 429, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form .th2 {
         padding-left: 0; }
-      /* line 405, scss/partials/_responsive.scss */
+      /* line 432, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form input[type="text"], .wgt-locatie-reserveren .form input[type="password"], .wgt-locatie-reserveren .form input[type="date"] {
         margin-bottom: 2px; }
-      /* line 408, scss/partials/_responsive.scss */
+      /* line 435, scss/partials/_responsive.scss */
       .wgt-locatie-reserveren .form .btn-rectangule {
         margin-top: 21px; }
 
-  /* line 413, scss/partials/_responsive.scss */
+  /* line 440, scss/partials/_responsive.scss */
   .wgt-locatie-reserveren2 {
     margin-top: 30px;
     min-height: 420px; }
-    /* line 416, scss/partials/_responsive.scss */
+    /* line 443, scss/partials/_responsive.scss */
     .wgt-locatie-reserveren2 .page-title {
       font-size: 18px;
       line-height: 1.1; }
 
-  /* line 421, scss/partials/_responsive.scss */
+  /* line 448, scss/partials/_responsive.scss */
   .wgt-map {
     width: auto;
     overflow: visible;
     margin-left: -10px;
     margin-right: -10px; }
-    /* line 426, scss/partials/_responsive.scss */
+    /* line 453, scss/partials/_responsive.scss */
     .wgt-map img {
       min-width: 100%; }
 
-  /* line 430, scss/partials/_responsive.scss */
+  /* line 457, scss/partials/_responsive.scss */
   .wgt-location-detail {
     background: none;
     padding: 10px 0 23px; }
-    /* line 433, scss/partials/_responsive.scss */
+    /* line 460, scss/partials/_responsive.scss */
     .wgt-location-detail .lft-block {
       float: none;
       width: auto; }
-    /* line 437, scss/partials/_responsive.scss */
+    /* line 464, scss/partials/_responsive.scss */
     .wgt-location-detail .flex-control-thumbs {
       margin-top: 20px;
       position: static; }
-      /* line 440, scss/partials/_responsive.scss */
+      /* line 467, scss/partials/_responsive.scss */
       .wgt-location-detail .flex-control-thumbs li {
         float: left;
         clear: none;
         margin-right: 21px; }
-    /* line 446, scss/partials/_responsive.scss */
+    /* line 473, scss/partials/_responsive.scss */
     .wgt-location-detail .slider2 {
       width: 300px;
       margin: 0 auto; }
-    /* line 450, scss/partials/_responsive.scss */
+    /* line 477, scss/partials/_responsive.scss */
     .wgt-location-detail .btn-rectangule {
       margin-right: 0; }
-    /* line 453, scss/partials/_responsive.scss */
+    /* line 480, scss/partials/_responsive.scss */
     .wgt-location-detail .btn1 {
       float: left; }
-    /* line 456, scss/partials/_responsive.scss */
+    /* line 483, scss/partials/_responsive.scss */
     .wgt-location-detail .btn3 {
       float: right; }
-    /* line 459, scss/partials/_responsive.scss */
+    /* line 486, scss/partials/_responsive.scss */
     .wgt-location-detail .btn2 {
       display: none; }
-    /* line 462, scss/partials/_responsive.scss */
+    /* line 489, scss/partials/_responsive.scss */
     .wgt-location-detail .btn-rect-stl8 {
       width: auto;
       display: block;
       margin: 12px 0 17px; }
-    /* line 467, scss/partials/_responsive.scss */
+    /* line 494, scss/partials/_responsive.scss */
     .wgt-location-detail .content h3 {
       font-size: 18px;
       padding-bottom: 3px; }
 
-  /* line 472, scss/partials/_responsive.scss */
+  /* line 499, scss/partials/_responsive.scss */
   .wgt-mapInfoCon {
     padding-top: 20px; }
 
   /* page wgt setting */
-  /* line 477, scss/partials/_responsive.scss */
+  /* line 504, scss/partials/_responsive.scss */
   .home .wgt-website-note {
     display: block; }
 
-  /* line 482, scss/partials/_responsive.scss */
+  /* line 509, scss/partials/_responsive.scss */
   .locatie-detail .wgt-product-list {
     display: none; }
 
-  /* line 487, scss/partials/_responsive.scss */
+  /* line 514, scss/partials/_responsive.scss */
   .verkooppunten .page-title-box.page-map-title {
     max-width: 100%; }
-  /* line 490, scss/partials/_responsive.scss */
+  /* line 517, scss/partials/_responsive.scss */
   .verkooppunten .pagination {
     display: none; }
 
-  /* line 494, scss/partials/_responsive.scss */
+  /* line 521, scss/partials/_responsive.scss */
   .page-pink .wgt-locations .list-opts > .list-info > .btn-rectangule {
     background-color: #cb1150;
     border-color: #cb1150; } }
+@media screen and (max-width: 367px) {
+  /* line 529, scss/partials/_responsive.scss */
+  .search-map .search_input {
+    width: 70%; } }
