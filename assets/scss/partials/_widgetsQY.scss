@@ -350,10 +350,15 @@ $color-blue: #29639b;
 }
 
 .search-map {
+    overflow: hidden;
+    margin-bottom: 10px;
     .search_input {
         float: left;
         width: 615px;
         margin-right: 13px;
+        input[type="text"]{
+            margin-bottom: 0;
+        }
     }
     .btn-rectangule {
         height: 40px;

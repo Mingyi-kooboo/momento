@@ -18,8 +18,12 @@ $color-white:#fff;
     text-align: center;
     padding: 4px 10px;
     border:solid 1px;
+    cursor:pointer;
     &:hover{
         text-decoration: none;
+    }
+    &:active,&:focus{
+        outline:0;
     }
 }
 
